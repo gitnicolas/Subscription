@@ -1,0 +1,9 @@
+﻿Buildfile: P:\Repository\Projects\Subscription-main\deployment\build_core.xml
+
+deploy:
+     [copy] Copying 45 files to P:\Repository\Projects\Subscription-main\deployment
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+

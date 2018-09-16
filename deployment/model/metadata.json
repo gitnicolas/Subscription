@@ -1,0 +1,74 @@
+{
+  "RuntimeVersion": "7.18.0.39395",
+  "ProjectID": "46f62f28-54d7-4a39-ae6c-f9c720369254",
+  "ProjectName": "Subscription",
+  "ModelVersion": "unversioned",
+  "Description": "",
+  "AdminUser": "admin",
+  "Roles": {
+    "8dd52bfa-6d7e-453b-b506-303c0a3d9567": {
+      "Name": "Administrator",
+      "ManageableRoles": [
+        "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+        "39f95931-6eb7-4b87-ad2d-6aa496d77ed0",
+        "71b5db16-259c-4ab7-a27b-4d93534f8adb"
+      ]
+    },
+    "39f95931-6eb7-4b87-ad2d-6aa496d77ed0": {
+      "Name": "Organizer"
+    },
+    "71b5db16-259c-4ab7-a27b-4d93534f8adb": {
+      "Name": "Subscriber"
+    }
+  },
+  "AdminRole": "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+  "Constants": [],
+  "ScheduledEvents": [],
+  "Configuration": {
+    "SourceDatabaseType": "HSQLDB",
+    "SourceDatabaseName": "default",
+    "SourceBuiltInDatabasePath": "model/sampledata/data/database"
+  },
+  "RequestHandlers": [
+    {
+      "Name": "/api/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/link/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/ws/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/ws-doc/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/odata/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/odata-doc/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/api-doc/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/p/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    }
+  ]
+}
