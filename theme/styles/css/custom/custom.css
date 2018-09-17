@@ -14,14 +14,14 @@ body {
 	text-overflow: ellipsis
 }
 
+.transition {
+	transition: all 0.15s ease-in-out
+}
+
 ::-webkit-scrollbar {
 	width: 10px;
 	height: 10px;
 	background-color: rgba(0, 0, 0, 0.1)
-}
-
-::-webkit-scrollbar-track {
-	margin: 2px
 }
 
 ::-webkit-scrollbar-thumb {
@@ -29,6 +29,38 @@ body {
 	background-color: rgba(0, 0, 0, 0.25)
 }
 
+::-webkit-scrollbar-track {
+	margin: 2px
+}
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "PT Sans Narrow", sans-serif
+}
+
+.pt-region-bottom-bar, .pt-region-top-bar {
+	background-color: #414141;
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.25)
+}
+
+.pt-region-bottom-bar {
+	height: 128px;
+	border-top: 4px solid #0595db
+}
+
+.pt-region-content {
+	background: url("/images/snow.jpg") no-repeat center/cover
+}
+
+.pt-region-top-bar {
+	border-bottom: 4px solid #0595db;
+	padding: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 26px;
+	color: white
+}
+
+.pt-region-top-bar:after {
+	content: 'Ski Weekend Subscription'
 }

@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: normal;
+	src: url(materialicons-regular.eot);
+	src: local('Material Icons'), local('MaterialIcons-Regular'),
+	url('materialicons-regular.eot?#iefix') format('embedded-opentype'),
+	url(materialicons-regular.woff2) format('woff2'),
+	url(materialicons-regular.woff) format('woff'),
+	url(materialicons-regular.ttf) format('truetype'),
+	url('materialicons-regular.svg#MaterialIcons-Regular') format('svg');
+}
+
+i {
+	font-family: 'Material Icons', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+
+	/* Support for IE. */
+	font-feature-settings: 'liga';
+}
