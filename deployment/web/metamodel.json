@@ -18,6 +18,32 @@
 			]
 		]
 	},
+	"Administration.ShowMyPasswordForm": {
+		"p": [
+			"Administration.Account"
+		],
+		"a": []
+	},
+	"Subscription.CreatePerson": {
+		"p": [],
+		"a": []
+	},
+	"Subscription.SavePerson": {
+		"p": [
+			"Subscription.Person"
+		],
+		"a": []
+	},
+	"Administration.ShowPasswordForm": {
+		"p": [
+			"Administration.Account"
+		],
+		"a": []
+	},
+	"Administration.NewWebServiceAccount": {
+		"p": [],
+		"a": []
+	},
 	"Administration.ChangePassword": {
 		"p": [
 			"Administration.AccountPasswordData"
@@ -39,31 +65,5 @@
 				"Administration.AccountPasswordData"
 			]
 		]
-	},
-	"Subscription.SavePerson": {
-		"p": [
-			"Subscription.Person"
-		],
-		"a": []
-	},
-	"Administration.ShowPasswordForm": {
-		"p": [
-			"Administration.Account"
-		],
-		"a": []
-	},
-	"Administration.NewWebServiceAccount": {
-		"p": [],
-		"a": []
-	},
-	"Administration.ShowMyPasswordForm": {
-		"p": [
-			"Administration.Account"
-		],
-		"a": []
-	},
-	"Subscription.CreatePerson": {
-		"p": [],
-		"a": []
 	}
 }

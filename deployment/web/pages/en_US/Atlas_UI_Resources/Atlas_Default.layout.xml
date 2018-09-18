@@ -2,39 +2,36 @@
 <m:layout id='03da753a-2de8-432c-93cd-6383b368d1a6' xmlns='http://www.w3.org/1999/xhtml' xmlns:m='http://schemas.mendix.com/forms/1.0'>
     <m:arguments>
         <m:argument>
-            <div data-mendix-id='26_0' data-mendix-type='mxui.widget.HorizontalScrollContainer'
+            <div data-mendix-id='0_0' data-mendix-type='mxui.widget.HorizontalScrollContainer'
                  data-mendix-props='"fixed":true,"config":[{"position":"left","toggleMode":"shrinkContent","initiallyOpen":false},{"position":"center"}]'
                  class='mx-layoutcontainer mx-scrollcontainer mx-layoutcontainer-horizontal mx-scrollcontainer-horizontal mx-layoutcontainer-fixed mx-scrollcontainer-fixed'>
                 <div class='mx-layoutcontainer-left mx-scrollcontainer-left region-sidebar' style='width:320px;'>
                     <div class='mx-layoutcontainer-wrapper mx-scrollcontainer-wrapper'>
-                        <div data-mendix-id='26_1' data-mendix-type='mxui.widget.SidebarToggleButton'
+                        <div data-mendix-id='0_1' data-mendix-type='mxui.widget.SidebarToggleButton'
                              data-mendix-props='"friendlyId":"Atlas_UI_Resources.Atlas_Default.sidebarToggle1","caption":{"elements":[],"friendlyId":"Atlas_UI_Resources.Atlas_Default.sidebarToggle1"},"iconClass":"glyphicon-menu-hamburger","renderType":"button"'
                              class='mx-name-sidebarToggle1 hidden-xs toggle-btn btn-inverse' tabindex='-1'></div>
-                        <div data-mendix-id='26_2' data-mendix-type='mxui.widget.NavigationTree'
+                        <div data-mendix-id='0_2' data-mendix-type='mxui.widget.NavigationTree'
                              data-mendix-props='"friendlyId":"Atlas_UI_Resources.Atlas_Default.navigationTree3","menu":[{"id":"159b6aef-dbc3-5b23-a735-cf99f8341771-0","caption":"Home","iconClass":"glyphicon-home","action":{"type":"openPage","argMap":{},"config":{"name":"Subscription/Home.page.xml","location":"content","allowedRoles":["Administrator","Organizer","Subscriber"]}}},{"id":"159b6aef-dbc3-5b23-a735-cf99f8341771-1","caption":"Candidates","iconClass":"glyphicon-user","action":{"type":"openPage","argMap":{},"config":{"name":"Subscription/Person_Overview.page.xml","location":"content","allowedRoles":["Administrator","Organizer"]}}},{"id":"159b6aef-dbc3-5b23-a735-cf99f8341771-2","caption":"Subscription","iconClass":"glyphicon-plus-sign","action":{"type":"callMicroflow","argMap":{},"config":{"name":"Subscription.CreatePerson","validate":"view","allowedRoles":["Administrator","Organizer","Subscriber"]}}},{"id":"159b6aef-dbc3-5b23-a735-cf99f8341771-3","caption":"Administration","iconClass":"glyphicon-cog","items":[{"id":"159b6aef-dbc3-5b23-a735-cf99f8341771-3-0","caption":"Activity Types","iconClass":"glyphicon-flash","action":{"type":"openPage","argMap":{},"config":{"name":"Subscription/ActivityType_Overview.page.xml","location":"content","allowedRoles":["Administrator"]}}},{"id":"159b6aef-dbc3-5b23-a735-cf99f8341771-3-1","caption":"Food Preferences","iconClass":"glyphicon-ice-lolly-tasted","action":{"type":"openPage","argMap":{},"config":{"name":"Subscription/FoodPreference_Overview.page.xml","location":"content","allowedRoles":["Administrator"]}}},{"id":"159b6aef-dbc3-5b23-a735-cf99f8341771-3-2","caption":"Registration Statuses","iconClass":"glyphicon-calendar","action":{"type":"openPage","argMap":{},"config":{"name":"Subscription/RegistrationStatus_Overview.page.xml","location":"content","allowedRoles":["Administrator"]}}},{"id":"159b6aef-dbc3-5b23-a735-cf99f8341771-3-3","caption":"Ski Levels","iconClass":"glyphicon-star","action":{"type":"openPage","argMap":{},"config":{"name":"Subscription/SkiLevel_Overview.page.xml","location":"content","allowedRoles":["Administrator"]}}},{"id":"159b6aef-dbc3-5b23-a735-cf99f8341771-3-4","caption":"Transportation Types","iconClass":"glyphicon-transfer","action":{"type":"openPage","argMap":{},"config":{"name":"Subscription/TransportationType_Overview.page.xml","location":"content","allowedRoles":["Administrator"]}}}]}]'
                              class='mx-name-navigationTree3'></div>
                     </div>
                 </div>
                 <div class='mx-layoutcontainer-center mx-scrollcontainer-center '>
                     <div class='mx-layoutcontainer-wrapper mx-scrollcontainer-wrapper mx-layoutcontainer-nested mx-scrollcontainer-nested'>
-                        <div data-mendix-id='26_3' data-mendix-type='mxui.widget.VerticalScrollContainer'
+                        <div data-mendix-id='0_3' data-mendix-type='mxui.widget.VerticalScrollContainer'
                              data-mendix-props='"fixed":true,"config":[{"position":"top"},{"position":"middle"}]'
                              class='mx-layoutcontainer mx-scrollcontainer mx-layoutcontainer-vertical mx-scrollcontainer-vertical mx-layoutcontainer-fixed mx-scrollcontainer-fixed'>
                             <div class='mx-layoutcontainer-top mx-scrollcontainer-top region-topbar'>
                                 <div class='mx-layoutcontainer-wrapper mx-scrollcontainer-wrapper'>
-                                    <div data-mendix-id='26_4_5' data-mendix-type='SprintrFeedbackWidget.SprintrFeedback'
-                                         data-mendix-props='"friendlyId":"Atlas_UI_Resources.FeedbackWidget.feedbackWidget1","entity":"Administration.Account","usernameattr":"FullName","emailattr":"Email","allowFile":true,"allowSshot":false,"sprintrserver":"https://sprintr.home.mendix.com/","sprintrapp":"2e3c4567-a101-4648-8e6f-9a63e7a5683c"'
-                                         class='mx-name-feedbackWidget1' tabindex='0'></div>
-                                    <div data-mendix-id='26_6' class='mx-layoutgrid mx-layoutgrid-fluid container-fluid mx-name-layoutGrid1'>
+                                    <div data-mendix-id='0_4' class='mx-layoutgrid mx-layoutgrid-fluid container-fluid mx-name-layoutGrid1'>
                                         <div class='row'>
                                             <div class='col-md-12'>
                                                 <div class='mx-name-container1 topbar-content'>
-                                                    <div data-mendix-id='26_7' data-mendix-type='mxui.widget.SidebarToggleButton'
+                                                    <div data-mendix-id='0_5' data-mendix-type='mxui.widget.SidebarToggleButton'
                                                          data-mendix-props='"friendlyId":"Atlas_UI_Resources.Atlas_Default.sidebarToggle2","caption":{"elements":[],"friendlyId":"Atlas_UI_Resources.Atlas_Default.sidebarToggle2"},"iconClass":"glyphicon-menu-hamburger","renderType":"link"'
                                                          class='mx-name-sidebarToggle2 toggle-btn' tabindex='-1'></div>
                                                     <div class='mx-name-container3 navbar-brand'>
-                                                        <div data-mendix-id='26_8' data-mendix-type='mxui.widget.StaticImage'
-                                                             data-mendix-props='"friendlyId":"Atlas_UI_Resources.Atlas_Default.image2","url":"img/Atlas_UI_Resources$logo.png?636728171893191235","action":{"type":"doNothing","argMap":{},"config":{}}'
+                                                        <div data-mendix-id='0_6' data-mendix-type='mxui.widget.StaticImage'
+                                                             data-mendix-props='"friendlyId":"Atlas_UI_Resources.Atlas_Default.image2","url":"img/Atlas_UI_Resources$logo.png?636729043038602186","action":{"type":"doNothing","argMap":{},"config":{}}'
                                                              class='mx-name-image2'></div>
                                                     </div>
                                                 </div>

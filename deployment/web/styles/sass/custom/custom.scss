@@ -3,72 +3,102 @@
 // Theme Add-Ons
 
 body {
-  -webkit-overflow-scrolling: touch;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+	-webkit-overflow-scrolling: touch;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 .ellipsis {
-  overflow-x: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+	overflow-x: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 .transition {
-  transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-  background-color: rgba(0, 0, 0, 0.1);
+	width: 10px;
+	height: 10px;
+	background-color: rgba(0, 0, 0, 0.1);
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.25);
 }
 
 ::-webkit-scrollbar-track {
-  margin: 2px;
+	margin: 2px;
 }
 
 // Theme Overrides
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: $font-family-condensed;
+	font-family: $font-family-condensed;
+}
+
+.mx-dataview-controls {
+	padding: 0 !important;
+	border: none !important;
 }
 
 // Pt UI Theme
 
-.pt-region-bottom-bar, .pt-region-top-bar {
-  background-color: #414141;
-  box-shadow: $bar-shadow;
-}
-
 .pt-region-bottom-bar {
-  height: 128px;
-  border-top: $half-spacing solid $brand-primary;
+	height: 128px;
+	border-top: $half-spacing solid $brand-primary;
+	background: #414141 url("/images/logo.svg") center/auto 48px no-repeat padding-box padding-box;
 }
 
 .pt-region-content {
-  background: url('/images/snow.jpg') no-repeat center/cover;
+	position: relative;
 }
 
 .pt-region-top-bar {
-  border-bottom: $half-spacing solid $brand-primary;
-  padding: $double-spacing;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 26px;
-  color: white;
+	border-bottom: $half-spacing solid $brand-primary;
+	padding: $double-spacing;
+	background-color: #414141;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 26px;
+	color: white;
 }
 
 .pt-region-top-bar:after {
-  content: 'Ski Weekend Subscription';
+	content: "Ski Weekend Subscription";
+}
+
+// Pt UI Components
+
+.pt-disclaimer-container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: $double-spacing;
+	background: url("/images/snow.jpg") center/cover no-repeat padding-box padding-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: $hole-shadow;
+}
+
+.pt-disclaimer-card {
+	width: 60%;
+	min-width: 282px;
+	border-radius: 3px;
+	padding: $double-spacing;
+	box-shadow: $card-shadow;
+	border: solid 1px transparent;
+	background-image: linear-gradient(white, white), linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1) 5%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0));
+	background-origin: border-box;
+	background-clip: padding-box, border-box;
 }

@@ -20,10 +20,10 @@ $brand-danger: #ed1c24;
 $default-border-color: $gray-primary;
 
 //== Step 3: Typography
-$font-family-import: '/fonts/pt-sans/fonts.css';
-$font-family-base: 'PT Sans', sans-serif;
-$font-family-condensed: 'PT Sans Narrow', sans-serif;
-$font-family-expanded: 'PT Sans Caption', sans-serif;
+$font-family-import: "/fonts/pt-sans/fonts.css";
+$font-family-base: "PT Sans", sans-serif;
+$font-family-condensed: "PT Sans Narrow", sans-serif;
+$font-family-expanded: "PT Sans Caption", sans-serif;
 $font-base-size: 14px;
 $font-base-color: #555555;
 $link-color: $brand-primary;
@@ -57,6 +57,8 @@ $bg-color-secondary: #f5f8fd;
 
 // Shadows
 $bar-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.25);
+$card-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+$hole-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.25), inset 0 -4px 8px 0 rgba(0, 0, 0, 0.25);
 
 // Spacings
 $half-spacing: 4px;
