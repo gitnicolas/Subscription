@@ -10,6 +10,16 @@ body {
 	-ms-user-select: none;
 	user-select: none;
 	-ms-overflow-style: -ms-autohiding-scrollbar;
+
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
+
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .ellipsis {
@@ -43,31 +53,100 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: $font-family-condensed;
 }
 
-.mx-dataview-controls {
-	padding: 0 !important;
-	border: none !important;
+th {
+	font-weight: inherit;
 }
+
+.btn, .mx-button {
+	border: none;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+
+	&:hover, &:active, &:focus {
+		box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+	}
+}
+
+.card {
+	border: none;
+	padding: $double-spacing;
+	background-color: white;
+	box-shadow: $card-shadow;
+}
+
+.formblock-title {
+	border-bottom: none;
+}
+
+.form-control {
+	background-color: #fafafa;
+	box-shadow: inset 0 1px 2px 0 $gray-lighter;
+}
+
+.form-group {
+	margin-bottom: $spacing;
+}
+
+.form-group > [class*=col-] {
+	padding-right: $spacing;
+	padding-left: $spacing;
+}
+
+.form-group .control-label {
+	font-weight: inherit;
+}
+
+.form-horizontal .form-group {
+	margin-right: -$spacing;
+	margin-left: -$spacing;
+}
+
+.mx-dataview .mx-dataview-controls {
+	margin-top: 8px;
+	border-top: none;
+	padding: 0;
+}
+
+.mx-grid .mx-grid-controlbar, .mx-grid .mx-grid-searchbar {
+	margin-top: 0;
+}
+
+.pageheader {
+	border-bottom: none;
+	background: inherit;
+}
+
+.pageheader-title {
+	font-size: 28px;
+}
+
+/*
+.row {
+	margin-right: -$spacing;
+	margin-left: -$spacing;
+}
+*/
 
 // Pt UI Theme
 
 .pt-region-bottom-bar {
 	height: 128px;
-	border-top: $half-spacing solid $brand-primary;
+	border-bottom: $half-spacing solid $brand-primary;
 	background: #414141 url("/images/logo.svg") center/auto 48px no-repeat padding-box padding-box;
 }
 
 .pt-region-content {
 	position: relative;
+	box-shadow: $hole-shadow;
 }
 
 .pt-region-top-bar {
-	border-bottom: $half-spacing solid $brand-primary;
+	border-top: $half-spacing solid $brand-primary;
 	padding: $double-spacing;
 	background-color: #414141;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 26px;
+	font-size: 24px;
 	color: white;
 }
 
@@ -94,11 +173,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .pt-disclaimer-card {
 	width: 60%;
 	min-width: 282px;
-	border-radius: 3px;
+	border-radius: $border-radius-default;
 	padding: $double-spacing;
+	background-color: white;
 	box-shadow: $card-shadow;
-	border: solid 1px transparent;
-	background-image: linear-gradient(white, white), linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1) 5%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0));
-	background-origin: border-box;
-	background-clip: padding-box, border-box;
 }
