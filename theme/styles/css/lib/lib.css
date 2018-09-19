@@ -163,7 +163,7 @@ div[tabindex] {
 	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 	color: #555555;
 	border: 1px solid #d7d7d7;
-	border-radius: 4px;
+	border-radius: 2px;
 	background-color: #ffffff;
 	background-image: none;
 	-webkit-box-shadow: none;
@@ -473,7 +473,7 @@ select.form-control {
 	white-space: nowrap;
 	color: #0595db;
 	border: 1px solid transparent;
-	border-radius: 4px;
+	border-radius: 2px;
 	background-color: #ffffff;
 	background-image: none;
 	box-shadow: none;
@@ -2623,7 +2623,7 @@ img.img-center, .img-center img {
 	margin-bottom: 15px;
 	border-width: 1px;
 	border-style: solid;
-	border-radius: 4px
+	border-radius: 2px
 }
 
 .listview-hover.mx-listview .mx-listview-item:hover, .listview-hover.mx-listview .mx-listview-item:focus, .listview-hover.mx-listview .mx-listview-item:active {
@@ -4745,7 +4745,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .card {
 	padding: 30px;
 	border: 1px solid #d7d7d7;
-	border-radius: 4px;
+	border-radius: 2px;
 	background-color: #ffffff
 }
 
@@ -4849,11 +4849,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .cardtabs .cardtabs-tabs ul.mx-tabcontainer-tabs li:first-child a {
-	border-radius: 4px 0 0 0
+	border-radius: 2px 0 0 0
 }
 
 .cardtabs .cardtabs-tabs ul.mx-tabcontainer-tabs li:last-child a {
-	border-radius: 0 4px 0 0
+	border-radius: 0 2px 0 0
 }
 
 @media (max-width: 767px) {

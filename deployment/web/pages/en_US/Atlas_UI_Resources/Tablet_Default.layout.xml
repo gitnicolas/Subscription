@@ -28,7 +28,7 @@
                                                          class='mx-name-sidebarToggle2 toggle-btn' tabindex='-1'></div>
                                                     <div class='mx-name-container3 navbar-brand'>
                                                         <div data-mendix-id='29_5' data-mendix-type='mxui.widget.StaticImage'
-                                                             data-mendix-props='"friendlyId":"Atlas_UI_Resources.Tablet_Default.image2","url":"img/Atlas_UI_Resources$logo.png?636728962493653887","action":{"type":"doNothing","argMap":{},"config":{}}'
+                                                             data-mendix-props='"friendlyId":"Atlas_UI_Resources.Tablet_Default.image2","url":"img/Atlas_UI_Resources$logo.png?636729906986218530","action":{"type":"doNothing","argMap":{},"config":{}}'
                                                              class='mx-name-image2'></div>
                                                     </div>
                                                 </div>

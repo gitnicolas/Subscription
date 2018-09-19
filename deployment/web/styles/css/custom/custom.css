@@ -1,94 +1,157 @@
 body {
-  -webkit-overflow-scrolling: touch;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+	-webkit-overflow-scrolling: touch;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale
 }
 
 .ellipsis {
-  overflow-x: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+	overflow-x: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
 }
 
 .transition {
-  transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-  background-color: rgba(0, 0, 0, 0.1);
+	width: 10px;
+	height: 10px;
+	background-color: rgba(0, 0, 0, 0.1)
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.25)
 }
 
 ::-webkit-scrollbar-track {
-  margin: 2px;
+	margin: 2px
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "PT Sans Narrow", sans-serif;
+	font-family: "PT Sans Narrow", sans-serif
 }
 
-.mx-dataview-controls {
-  padding: 0 !important;
-  border: none !important;
+th {
+	font-weight: inherit
+}
+
+.btn, .mx-button {
+	border: none;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12)
+}
+
+.btn:hover, .btn:active, .btn:focus, .mx-button:hover, .mx-button:active, .mx-button:focus {
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2)
+}
+
+.card {
+	border: none;
+	padding: 16px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25)
+}
+
+.formblock-title {
+	border-bottom: none
+}
+
+.form-control {
+	background-color: #fafafa;
+	box-shadow: inset 0 1px 2px 0 #eeeeee
+}
+
+.form-group {
+	margin-bottom: 8px
+}
+
+.form-group > [class*=col-] {
+	padding-right: 8px;
+	padding-left: 8px
+}
+
+.form-group .control-label {
+	font-weight: inherit
+}
+
+.form-horizontal .form-group {
+	margin-right: -8px;
+	margin-left: -8px
+}
+
+.mx-dataview .mx-dataview-controls {
+	margin-top: 8px;
+	border-top: none;
+	padding: 0
+}
+
+.mx-grid .mx-grid-controlbar, .mx-grid .mx-grid-searchbar {
+	margin-top: 0
+}
+
+.pageheader {
+	border-bottom: none;
+	background: inherit
+}
+
+.pageheader-title {
+	font-size: 28px
 }
 
 .pt-region-bottom-bar {
-  height: 128px;
-  border-top: 4px solid #0595db;
-  background: #414141 url("/images/logo.svg") center/auto 48px no-repeat padding-box padding-box;
+	height: 128px;
+	border-bottom: 4px solid #0595db;
+	background: #414141 url("/images/logo.svg") center/auto 48px no-repeat padding-box padding-box
 }
 
 .pt-region-content {
-  position: relative;
+	position: relative;
+	box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.25), inset 0 -4px 8px 0 rgba(0, 0, 0, 0.25)
 }
 
 .pt-region-top-bar {
-  border-bottom: 4px solid #0595db;
-  padding: 16px;
-  background-color: #414141;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 26px;
-  color: white;
+	border-top: 4px solid #0595db;
+	padding: 16px;
+	background-color: #414141;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	color: white
 }
 
 .pt-region-top-bar:after {
-  content: "Ski Weekend Subscription";
+	content: "Ski Weekend Subscription"
 }
 
 .pt-disclaimer-container {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 16px;
-  background: url("/images/snow.jpg") center/cover no-repeat padding-box padding-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.25), inset 0 -4px 8px 0 rgba(0, 0, 0, 0.25);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 16px;
+	background: url("/images/snow.jpg") center/cover no-repeat padding-box padding-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.25), inset 0 -4px 8px 0 rgba(0, 0, 0, 0.25)
 }
 
 .pt-disclaimer-card {
-  width: 60%;
-  min-width: 282px;
-  border-radius: 3px;
-  padding: 16px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
-  border: solid 1px transparent;
-  background-image: linear-gradient(white, white), linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1) 5%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0));
-  background-origin: border-box;
-  background-clip: padding-box, border-box;
+	width: 60%;
+	min-width: 288px;
+	border-radius: 2px;
+	padding: 16px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25)
 }

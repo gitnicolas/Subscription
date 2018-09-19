@@ -9,7 +9,7 @@
                 <div class='row'>
                     <div class='col-md-12'>
                         <div data-mendix-id='1_1' data-mendix-type='mxui.widget.DataView'
-                             data-mendix-props='"friendlyId":"Subscription.Person_NewEdit.dataView1","entity":"Subscription.Person","schema":"2dca4894-9336-49a5-924d-b70d318d2acc","datasource":{"friendlyId":"Subscription.Person_NewEdit.dataView1","type":"direct","path":"Subscription.Person"}'
+                             data-mendix-props='"friendlyId":"Subscription.Person_NewEdit.dataView1","entity":"Subscription.Person","schema":"45c94618-3dd0-43dc-8bb3-eb39cddb7f1d","datasource":{"friendlyId":"Subscription.Person_NewEdit.dataView1","type":"direct","path":"Subscription.Person"}'
                              class='mx-name-dataView1 form-horizontal' tabindex='0'></div>
                     </div>
                 </div>

@@ -1,9 +1,21 @@
 ﻿{
-	"Administration.RetrieveTimeZones": {
-		"p": [],
+	"Subscription.SavePerson": {
+		"p": [
+			"Subscription.Person"
+		],
 		"a": []
 	},
 	"Administration.NewAccount": {
+		"p": [],
+		"a": []
+	},
+	"Administration.ShowMyPasswordForm": {
+		"p": [
+			"Administration.Account"
+		],
+		"a": []
+	},
+	"Administration.RetrieveTimeZones": {
 		"p": [],
 		"a": []
 	},
@@ -18,33 +30,11 @@
 			]
 		]
 	},
-	"Administration.ShowMyPasswordForm": {
-		"p": [
-			"Administration.Account"
-		],
-		"a": []
-	},
-	"Subscription.CreatePerson": {
-		"p": [],
-		"a": []
-	},
-	"Subscription.SavePerson": {
-		"p": [
-			"Subscription.Person"
-		],
-		"a": []
-	},
-	"Administration.ShowPasswordForm": {
-		"p": [
-			"Administration.Account"
-		],
-		"a": []
-	},
 	"Administration.NewWebServiceAccount": {
 		"p": [],
 		"a": []
 	},
-	"Administration.ChangePassword": {
+	"Administration.ChangeMyPassword": {
 		"p": [
 			"Administration.AccountPasswordData"
 		],
@@ -55,7 +45,17 @@
 			]
 		]
 	},
-	"Administration.ChangeMyPassword": {
+	"Subscription.CreatePerson": {
+		"p": [],
+		"a": []
+	},
+	"Administration.ShowPasswordForm": {
+		"p": [
+			"Administration.Account"
+		],
+		"a": []
+	},
+	"Administration.ChangePassword": {
 		"p": [
 			"Administration.AccountPasswordData"
 		],

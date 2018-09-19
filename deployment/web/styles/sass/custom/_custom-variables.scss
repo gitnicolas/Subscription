@@ -35,6 +35,9 @@ $font-color-headers: #17347b;
 
 //== Step 2: UI Customization
 
+// Global Border Color
+$border-radius-default: 2px !default;
+
 // Topbar
 $topbar-bg: #ffffff;
 $navtopbar-border-color: $default-border-color;
