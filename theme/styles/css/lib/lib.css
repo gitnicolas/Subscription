@@ -80,19 +80,19 @@
 
 @media (max-width: 767px) {
 	.mx-scrollcontainer .mx-placeholder .mx-layoutgrid {
-		padding: 15px 15px 15px 15px
+		padding: 8px 8px 8px 8px
 	}
 }
 
 @media (min-width: 768px) {
 	.mx-scrollcontainer .mx-placeholder .mx-layoutgrid {
-		padding: 30px 30px 30px 30px
+		padding: 16px 16px 16px 16px
 	}
 }
 
 @media (min-width: 992px) {
 	.mx-scrollcontainer .mx-placeholder .mx-layoutgrid {
-		padding: 30px 30px 30px 30px
+		padding: 16px 16px 16px 16px
 	}
 }
 
@@ -156,7 +156,7 @@ div[tabindex] {
 	display: block;
 	width: 100%;
 	height: auto;
-	padding: 8px 10px;
+	padding: 8px 8px;
 	-webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 	-moz-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 	-o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
@@ -190,7 +190,7 @@ select.form-control {
 	padding-right: 30px;
 	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='15px' height='8px'><polyline id='Line' fill='none' stroke='%23555555' points='0.5 0.5 6 6 11.545361 0.5'></polyline></svg>");
 	background-repeat: no-repeat;
-	background-position: calc(100% - 10px) center;
+	background-position: calc(100% - 8px) center;
 	-moz-appearance: none;
 	-webkit-appearance: none
 }
@@ -211,7 +211,7 @@ select.form-control {
 	min-height: auto;
 	padding-top: 8px;
 	padding-bottom: 8px;
-	padding-left: 10px;
+	padding-left: 8px;
 	border-bottom: 1px solid #f0f0ee;
 	font-size: 14px;
 	line-height: 1.42857
@@ -235,12 +235,12 @@ select.form-control {
 }
 
 .form-group {
-	margin-bottom: 15px
+	margin-bottom: 8px
 }
 
 .form-group > [class*="col-"] {
-	padding-right: 15px;
-	padding-left: 15px
+	padding-right: 8px;
+	padding-left: 8px
 }
 
 .form-group .control-label {
@@ -950,7 +950,7 @@ select.form-control {
 }
 
 .mx-datagrid .mx-datagrid-head-table .mx-datagrid-head-wrapper {
-	padding: 15px 15px 15px 15px;
+	padding: 8px 8px 8px 8px;
 	vertical-align: middle
 }
 
@@ -963,7 +963,7 @@ select.form-control {
 }
 
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td {
-	padding: 15px 15px 15px 15px;
+	padding: 8px 8px 8px 8px;
 	vertical-align: middle;
 	border-width: 0;
 	border-color: #d7d7d7;
@@ -986,13 +986,13 @@ select.form-control {
 }
 
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-foot > tr > th {
-	padding: 15px 15px 15px 15px;
+	padding: 8px 8px 8px 8px;
 	border-width: 0;
 	background-color: #d7d7d7
 }
 
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-foot > tr > td {
-	padding: 15px 15px 15px 15px;
+	padding: 8px 8px 8px 8px;
 	border-width: 0;
 	background-color: #ffffff;
 	font-weight: bold
@@ -1057,19 +1057,19 @@ select.form-control {
 }
 
 .datagrid-lg.mx-datagrid .mx-datagrid-head-table .mx-datagrid-head-wrapper {
-	padding: 30px 30px 30px 30px
+	padding: 16px 16px 16px 16px
 }
 
 .datagrid-lg.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td {
-	padding: 30px 30px 30px 30px
+	padding: 16px 16px 16px 16px
 }
 
 .datagrid-sm.mx-datagrid .mx-datagrid-head-table .mx-datagrid-head-wrapper {
-	padding: 7.5px 7.5px 7.5px 7.5px
+	padding: 4px 4px 4px 4px
 }
 
 .datagrid-sm.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td {
-	padding: 7.5px 7.5px 7.5px 7.5px
+	padding: 4px 4px 4px 4px
 }
 
 .datagrid-fullsearch.mx-grid .mx-grid-reset-button {
@@ -1862,582 +1862,582 @@ body[dir="rtl"] .mx-header-right {
 }
 
 .spacing-inner {
-	padding: 5px !important
+	padding: 4px !important
 }
 
 .spacing-inner-top {
-	padding-top: 5px !important
+	padding-top: 4px !important
 }
 
 .spacing-inner-right {
-	padding-right: 5px !important
+	padding-right: 4px !important
 }
 
 .spacing-inner-bottom {
-	padding-bottom: 5px !important
+	padding-bottom: 4px !important
 }
 
 .spacing-inner-left {
-	padding-left: 5px !important
+	padding-left: 4px !important
 }
 
 .spacing-outer {
-	margin: 5px !important
+	margin: 4px !important
 }
 
 .spacing-outer-top {
-	margin-top: 5px !important
+	margin-top: 4px !important
 }
 
 .spacing-outer-right {
-	margin-right: 5px !important
+	margin-right: 4px !important
 }
 
 .spacing-outer-bottom {
-	margin-bottom: 5px !important
+	margin-bottom: 4px !important
 }
 
 .spacing-outer-left {
-	margin-left: 5px !important
+	margin-left: 4px !important
 }
 
 @media (max-width: 767px) {
 	.spacing-inner-medium {
-		padding: 15px !important
+		padding: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-inner-medium {
-		padding: 15px !important
+		padding: 8px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-inner-medium {
-		padding: 15px !important
+		padding: 8px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-inner-top-medium {
-		padding-top: 15px !important
+		padding-top: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-inner-top-medium {
-		padding-top: 15px !important
+		padding-top: 8px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-inner-top-medium {
-		padding-top: 15px !important
+		padding-top: 8px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-inner-right-medium {
-		padding-right: 15px !important
+		padding-right: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-inner-right-medium {
-		padding-right: 15px !important
+		padding-right: 8px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-inner-right-medium {
-		padding-right: 15px !important
+		padding-right: 8px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-inner-bottom-medium {
-		padding-bottom: 15px !important
+		padding-bottom: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-inner-bottom-medium {
-		padding-bottom: 15px !important
+		padding-bottom: 8px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-inner-bottom-medium {
-		padding-bottom: 15px !important
+		padding-bottom: 8px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-inner-left-medium {
-		padding-left: 15px !important
+		padding-left: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-inner-left-medium {
-		padding-left: 15px !important
+		padding-left: 8px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-inner-left-medium {
-		padding-left: 15px !important
+		padding-left: 8px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-outer-medium {
-		margin: 15px !important
+		margin: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-outer-medium {
-		margin: 15px !important
+		margin: 8px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-outer-medium {
-		margin: 15px !important
+		margin: 8px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-outer-top-medium {
-		margin-top: 15px !important
+		margin-top: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-outer-top-medium {
-		margin-top: 15px !important
+		margin-top: 8px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-outer-top-medium {
-		margin-top: 15px !important
+		margin-top: 8px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-outer-right-medium {
-		margin-right: 15px !important
+		margin-right: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-outer-right-medium {
-		margin-right: 15px !important
+		margin-right: 8px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-outer-right-medium {
-		margin-right: 15px !important
+		margin-right: 8px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-outer-bottom-medium {
-		margin-bottom: 15px !important
+		margin-bottom: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-outer-bottom-medium {
-		margin-bottom: 15px !important
+		margin-bottom: 8px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-outer-bottom-medium {
-		margin-bottom: 15px !important
+		margin-bottom: 8px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-outer-left-medium {
-		margin-left: 15px !important
+		margin-left: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-outer-left-medium {
-		margin-left: 15px !important
+		margin-left: 8px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-outer-left-medium {
-		margin-left: 15px !important
+		margin-left: 8px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-inner-large {
-		padding: 15px !important
+		padding: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-inner-large {
-		padding: 30px !important
+		padding: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-inner-large {
-		padding: 30px !important
+		padding: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-inner-top-large {
-		padding-top: 15px !important
+		padding-top: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-inner-top-large {
-		padding-top: 30px !important
+		padding-top: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-inner-top-large {
-		padding-top: 30px !important
+		padding-top: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-inner-right-large {
-		padding-right: 15px !important
+		padding-right: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-inner-right-large {
-		padding-right: 30px !important
+		padding-right: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-inner-right-large {
-		padding-right: 30px !important
+		padding-right: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-inner-bottom-large {
-		padding-bottom: 15px !important
+		padding-bottom: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-inner-bottom-large {
-		padding-bottom: 30px !important
+		padding-bottom: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-inner-bottom-large {
-		padding-bottom: 30px !important
+		padding-bottom: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-inner-left-large {
-		padding-left: 15px !important
+		padding-left: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-inner-left-large {
-		padding-left: 30px !important
+		padding-left: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-inner-left-large {
-		padding-left: 30px !important
+		padding-left: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-outer-large {
-		margin: 15px !important
+		margin: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-outer-large {
-		margin: 30px !important
+		margin: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-outer-large {
-		margin: 30px !important
+		margin: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-outer-top-large {
-		margin-top: 15px !important
+		margin-top: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-outer-top-large {
-		margin-top: 30px !important
+		margin-top: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-outer-top-large {
-		margin-top: 30px !important
+		margin-top: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-outer-right-large {
-		margin-right: 15px !important
+		margin-right: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-outer-right-large {
-		margin-right: 30px !important
+		margin-right: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-outer-right-large {
-		margin-right: 30px !important
+		margin-right: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-outer-bottom-large {
-		margin-bottom: 15px !important
+		margin-bottom: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-outer-bottom-large {
-		margin-bottom: 30px !important
+		margin-bottom: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-outer-bottom-large {
-		margin-bottom: 30px !important
+		margin-bottom: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-outer-left-large {
-		margin-left: 15px !important
+		margin-left: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-outer-left-large {
-		margin-left: 30px !important
+		margin-left: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-outer-left-large {
-		margin-left: 30px !important
+		margin-left: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-inner-layout {
-		padding: 15px 15px 15px 15px !important
+		padding: 8px 8px 8px 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-inner-layout {
-		padding: 30px 30px 30px 30px !important
+		padding: 16px 16px 16px 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-inner-layout {
-		padding: 30px 30px 30px 30px !important
+		padding: 16px 16px 16px 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-inner-top-layout {
-		padding-top: 15px !important
+		padding-top: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-inner-top-layout {
-		padding-top: 30px !important
+		padding-top: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-inner-top-layout {
-		padding-top: 30px !important
+		padding-top: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-inner-right-layout {
-		padding-right: 15px !important
+		padding-right: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-inner-right-layout {
-		padding-right: 30px !important
+		padding-right: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-inner-right-layout {
-		padding-right: 30px !important
+		padding-right: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-inner-bottom-layout {
-		padding-bottom: 15px !important
+		padding-bottom: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-inner-bottom-layout {
-		padding-bottom: 30px !important
+		padding-bottom: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-inner-bottom-layout {
-		padding-bottom: 30px !important
+		padding-bottom: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-inner-left-layout {
-		padding-left: 15px !important
+		padding-left: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-inner-left-layout {
-		padding-left: 30px !important
+		padding-left: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-inner-left-layout {
-		padding-left: 30px !important
+		padding-left: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-outer-layout {
-		margin: 15px 15px 15px 15px !important
+		margin: 8px 8px 8px 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-outer-layout {
-		margin: 30px 30px 30px 30px !important
+		margin: 16px 16px 16px 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-outer-layout {
-		margin: 30px 30px 30px 30px !important
+		margin: 16px 16px 16px 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-outer-top-layout {
-		margin-top: 15px !important
+		margin-top: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-outer-top-layout {
-		margin-top: 30px !important
+		margin-top: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-outer-top-layout {
-		margin-top: 30px !important
+		margin-top: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-outer-right-layout {
-		margin-right: 15px !important
+		margin-right: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-outer-right-layout {
-		margin-right: 30px !important
+		margin-right: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-outer-right-layout {
-		margin-right: 30px !important
+		margin-right: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-outer-bottom-layout {
-		margin-bottom: 15px !important
+		margin-bottom: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-outer-bottom-layout {
-		margin-bottom: 30px !important
+		margin-bottom: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-outer-bottom-layout {
-		margin-bottom: 30px !important
+		margin-bottom: 16px !important
 	}
 }
 
 @media (max-width: 767px) {
 	.spacing-outer-left-layout {
-		margin-left: 15px !important
+		margin-left: 8px !important
 	}
 }
 
 @media (min-width: 768px) {
 	.spacing-outer-left-layout {
-		margin-left: 30px !important
+		margin-left: 16px !important
 	}
 }
 
 @media (min-width: 992px) {
 	.spacing-outer-left-layout {
-		margin-left: 30px !important
+		margin-left: 16px !important
 	}
 }
 
@@ -2541,7 +2541,7 @@ img.img-center, .img-center img {
 }
 
 .mx-listview .mx-listview-searchbar {
-	margin-bottom: 15px
+	margin-bottom: 8px
 }
 
 .mx-listview > .mx-button {
@@ -2564,7 +2564,7 @@ img.img-center, .img-center img {
 	transition-duration: .2s;
 	transition-property: all;
 	transform-style: initial;
-	padding: 15px 15px 15px 15px;
+	padding: 8px 8px 8px 8px;
 	border-width: 1px 0 0 0;
 	border-style: solid;
 	border-color: #d7d7d7;
@@ -2620,7 +2620,7 @@ img.img-center, .img-center img {
 }
 
 .listview-seperated.mx-listview .mx-listview-item {
-	margin-bottom: 15px;
+	margin-bottom: 8px;
 	border-width: 1px;
 	border-style: solid;
 	border-radius: 2px
@@ -2654,11 +2654,11 @@ img.img-center, .img-center img {
 }
 
 .listview-lg.mx-listview .mx-listview-item {
-	padding: 30px 30px 30px 30px
+	padding: 16px 16px 16px 16px
 }
 
 .listview-sm.mx-listview .mx-listview-item {
-	padding: 7.5px 7.5px 7.5px 7.5px
+	padding: 4px 4px 4px 4px
 }
 
 .mx-listview[class*="lv-col"] {
@@ -2671,8 +2671,8 @@ img.img-center, .img-center img {
 
 .mx-listview[class*="lv-col"] > .mx-listview-list {
 	display: block;
-	margin-right: -15px;
-	margin-left: -15px
+	margin-right: -8px;
+	margin-left: -8px
 }
 
 .mx-listview[class*="lv-col"] > .mx-listview-list::before, .mx-listview[class*="lv-col"] > .mx-listview-list::after {
@@ -2686,8 +2686,8 @@ img.img-center, .img-center img {
 	display: block;
 	float: left;
 	min-height: 1px;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 8px;
+	padding-left: 8px;
 	border: 0
 }
 
@@ -3313,7 +3313,7 @@ img.img-center, .img-center img {
 	transition-duration: .2s;
 	transition-property: all;
 	transform-style: initial;
-	padding: 15px 15px 15px 15px;
+	padding: 8px 8px 8px 8px;
 	border-width: 1px;
 	border-style: none none solid none;
 	border-color: #d7d7d7;
@@ -3963,7 +3963,7 @@ html body .mx-page table.mx-table th.nopadding, html body .mx-page table.mx-tabl
 }
 
 table.mx-table > tbody > tr > th {
-	padding: 8px 8px 8px 8px
+	padding: 4px 4px 4px 4px
 }
 
 table.mx-table > tbody > tr > th s * {
@@ -3978,7 +3978,7 @@ table.mx-table > tbody > tr > th > label {
 }
 
 table.mx-table > tbody > tr > td {
-	padding: 8px 8px 8px 8px
+	padding: 4px 4px 4px 4px
 }
 
 table.mx-table > tbody > tr > td > div > label, table.mx-table > tbody > tr > td .mx-referenceselector-input-wrapper label {
@@ -3987,11 +3987,11 @@ table.mx-table > tbody > tr > td > div > label, table.mx-table > tbody > tr > td
 }
 
 .mx-templategrid table.mx-table > tbody > tr > th, .mx-templategrid table.mx-table > tbody > tr > td {
-	padding: 8px 8px 8px 8px
+	padding: 4px 4px 4px 4px
 }
 
 .mx-list table.mx-table > tbody > tr > th, .mx-list table.mx-table > tbody > tr > td {
-	padding: 8px 8px 8px 8px
+	padding: 4px 4px 4px 4px
 }
 
 table.table-lined.mx-table > tbody > tr > td {
@@ -4070,7 +4070,7 @@ table.table-fixed {
 }
 
 .mx-templategrid .mx-templategrid-item {
-	padding: 15px 15px 15px 15px;
+	padding: 8px 8px 8px 8px;
 	cursor: default;
 	background-color: #ffffff
 }
@@ -4146,11 +4146,11 @@ table.table-fixed {
 }
 
 .templategrid-lg.mx-templategrid .mx-templategrid-item {
-	padding: 30px 30px 30px 30px
+	padding: 16px 16px 16px 16px
 }
 
 .templategrid-sm.mx-templategrid .mx-templategrid-item {
-	padding: 7.5px 7.5px 7.5px 7.5px
+	padding: 4px 4px 4px 4px
 }
 
 .mx-templategrid[class*="tg-col"] {
@@ -4163,8 +4163,8 @@ table.table-fixed {
 
 .mx-templategrid[class*="tg-col"] .mx-templategrid-row {
 	display: block;
-	margin-right: -15px;
-	margin-left: -15px
+	margin-right: -8px;
+	margin-left: -8px
 }
 
 .mx-templategrid[class*="tg-col"] .mx-templategrid-row::before, .mx-templategrid[class*="tg-col"] .mx-templategrid-row::after {
@@ -4178,8 +4178,8 @@ table.table-fixed {
 	display: block;
 	float: left;
 	min-height: 1px;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 8px;
+	padding-left: 8px;
 	border: 0
 }
 
@@ -4400,7 +4400,7 @@ label {
 }
 
 .mx-title {
-	margin: 15px 0 30px 0;
+	margin: 0 0 16px 0;
 	color: #17347b;
 	font-size: 31px;
 	font-weight: normal
@@ -4431,7 +4431,7 @@ h6, .h6, .h6 > * {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	margin: 15px 0 30px 0;
+	margin: 0 0 16px 0;
 	color: #17347b;
 	font-weight: normal;
 	line-height: 1.3
@@ -4543,20 +4543,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 @media (max-width: 767px) {
 	.row {
-		margin-right: -7.5px;
-		margin-left: -7.5px
+		margin-right: -4px;
+		margin-left: -4px
 	}
 }
 
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-	padding-right: 15px;
-	padding-left: 15px
+	padding-right: 8px;
+	padding-left: 8px
 }
 
 @media (max-width: 767px) {
 	.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-		padding-right: 7.5px;
-		padding-left: 7.5px
+		padding-right: 4px;
+		padding-left: 4px
 	}
 }
 
@@ -4688,7 +4688,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .flexcontainer .flexitem {
-	margin-right: 15px
+	margin-right: 8px
 }
 
 .flexcontainer .flexitem:last-child {
@@ -4738,7 +4738,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .breadcrumb-underline {
-	padding-bottom: 15px;
+	padding-bottom: 8px;
 	border-bottom: 1px solid #d7d7d7
 }
 
@@ -4781,7 +4781,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .cardinfo .card-text {
-	margin-bottom: 30px
+	margin-bottom: 16px
 }
 
 .textwithicon {
@@ -4858,19 +4858,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 @media (max-width: 767px) {
 	.cardtabs .cardtabs-tabs .mx-tabcontainer-pane {
-		padding: 15px
+		padding: 8px
 	}
 }
 
 @media (min-width: 768px) {
 	.cardtabs .cardtabs-tabs .mx-tabcontainer-pane {
-		padding: 30px
+		padding: 16px
 	}
 }
 
 @media (min-width: 992px) {
 	.cardtabs .cardtabs-tabs .mx-tabcontainer-pane {
-		padding: 30px
+		padding: 16px
 	}
 }
 
@@ -4991,8 +4991,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .controlgroup .btn, .controlgroup .btn-group {
-	margin-right: 5px;
-	margin-bottom: 5px
+	margin-right: 4px;
+	margin-bottom: 4px
 }
 
 .controlgroup .btn:last-child, .controlgroup .btn-group:last-child {
@@ -5041,37 +5041,37 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 @media (max-width: 767px) {
 	.mx-scrollcontainer .mx-placeholder .mx-layoutgrid .pageheader {
-		margin-bottom: 15px
+		margin-bottom: 8px
 	}
 }
 
 @media (min-width: 768px) {
 	.mx-scrollcontainer .mx-placeholder .mx-layoutgrid .pageheader {
-		margin-bottom: 30px
+		margin-bottom: 16px
 	}
 }
 
 @media (min-width: 992px) {
 	.mx-scrollcontainer .mx-placeholder .mx-layoutgrid .pageheader {
-		margin-bottom: 30px
+		margin-bottom: 16px
 	}
 }
 
 @media (max-width: 767px) {
 	.mx-scrollcontainer .mx-placeholder .mx-layoutgrid .pageheader {
-		padding-bottom: 15px
+		padding-bottom: 8px
 	}
 }
 
 @media (min-width: 768px) {
 	.mx-scrollcontainer .mx-placeholder .mx-layoutgrid .pageheader {
-		padding-bottom: 30px
+		padding-bottom: 16px
 	}
 }
 
 @media (min-width: 992px) {
 	.mx-scrollcontainer .mx-placeholder .mx-layoutgrid .pageheader {
-		padding-bottom: 30px
+		padding-bottom: 16px
 	}
 }
 
@@ -5181,8 +5181,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .formblock-title {
-	margin-bottom: 15px;
-	padding-bottom: 15px;
+	margin-bottom: 8px;
+	padding-bottom: 8px;
 	border-bottom: 1px solid #d7d7d7
 }
 
@@ -5192,12 +5192,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 @media (min-width: 992px) {
 	.masterdetail .mx-layoutgrid {
-		padding: 0 15px !important
+		padding: 0 8px !important
 	}
 }
 
 .masterdetail .masterdetail-master .controlgroup {
-	margin-bottom: 15px
+	margin-bottom: 8px
 }
 
 @media (min-width: 992px) {
@@ -5211,67 +5211,67 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	}
 
 	.masterdetail .masterdetail-master .mx-listview-searchbar {
-		margin: 15px
+		margin: 8px
 	}
 
 	.masterdetail .masterdetail-master .controlgroup {
 		margin: 0;
-		padding: 15px;
+		padding: 8px;
 		border-bottom: 1px solid #d7d7d7
 	}
 }
 
 @media (min-width: 992px) and (max-width: 767px) {
 	.masterdetail .masterdetail-detail {
-		padding: 15px 15px 15px 15px
+		padding: 8px 8px 8px 8px
 	}
 }
 
 @media (min-width: 992px) and (min-width: 768px) {
 	.masterdetail .masterdetail-detail {
-		padding: 30px 30px 30px 30px
+		padding: 16px 16px 16px 16px
 	}
 }
 
 @media (min-width: 992px) and (min-width: 992px) {
 	.masterdetail .masterdetail-detail {
-		padding: 30px 30px 30px 30px
+		padding: 16px 16px 16px 16px
 	}
 }
 
 @media (max-width: 767px) {
 	.masterdetailvertical .masterdetail-master {
-		margin-bottom: 15px
+		margin-bottom: 8px
 	}
 }
 
 @media (min-width: 768px) {
 	.masterdetailvertical .masterdetail-master {
-		margin-bottom: 30px
+		margin-bottom: 16px
 	}
 }
 
 @media (min-width: 992px) {
 	.masterdetailvertical .masterdetail-master {
-		margin-bottom: 30px
+		margin-bottom: 16px
 	}
 }
 
 @media (max-width: 767px) {
 	.masterdetailvertical .masterdetail-detail {
-		padding-top: 15px
+		padding-top: 8px
 	}
 }
 
 @media (min-width: 768px) {
 	.masterdetailvertical .masterdetail-detail {
-		padding-top: 30px
+		padding-top: 16px
 	}
 }
 
 @media (min-width: 992px) {
 	.masterdetailvertical .masterdetail-detail {
-		padding-top: 30px
+		padding-top: 16px
 	}
 }
 
@@ -5423,13 +5423,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .timeline-itemwrapper.mx-listview {
 	margin-bottom: 0;
 	margin-left: 55px;
-	padding: 30px 0;
+	padding: 16px 0;
 	border-left: 1px solid #d7d7d7
 }
 
 .timeline-itemwrapper.mx-listview > ul > .mx-listview-item {
 	position: relative;
-	padding-left: 30px
+	padding-left: 16px
 }
 
 .timeline-itemwrapper.mx-listview > ul > .mx-listview-item::before {
@@ -5445,11 +5445,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .timeline-itemwrapper.mx-listview .mx-listview-item + .mx-listview-item {
-	margin-top: 30px
+	margin-top: 16px
 }
 
 .timeline2 .timeline-itemwrapper.mx-listview > ul > .mx-listview-item {
-	padding-left: 15px
+	padding-left: 8px
 }
 
 .layout-atlas .toggle-btn > .glyphicon {
@@ -5529,7 +5529,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .layout-atlas .region-topbar .mx-navbar {
 	display: inline-block;
-	margin-left: 15px;
+	margin-left: 8px;
 	vertical-align: middle;
 	background: transparent
 }

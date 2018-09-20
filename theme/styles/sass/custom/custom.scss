@@ -59,6 +59,7 @@ th {
 
 .btn, .mx-button {
 	border: none;
+	padding: $spacing $double-spacing;
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 
 	&:hover, &:active, &:focus {
@@ -78,8 +79,12 @@ th {
 }
 
 .form-control {
-	background-color: #fafafa;
+	background-color: $gray-50;
 	box-shadow: inset 0 1px 2px 0 $gray-lighter;
+}
+
+.form-control:focus {
+	box-shadow: inset 0 1px 2px 0 $gray-100, 0 0 2px 1px rgba($brand-primary, 0.25);
 }
 
 .form-group {
@@ -101,7 +106,7 @@ th {
 }
 
 .mx-dataview .mx-dataview-controls {
-	margin-top: 8px;
+	margin-top: $spacing;
 	border-top: none;
 	padding: 0;
 }
@@ -119,19 +124,17 @@ th {
 	font-size: 28px;
 }
 
-/*
 .row {
 	margin-right: -$spacing;
 	margin-left: -$spacing;
 }
-*/
 
 // Pt UI Theme
 
 .pt-region-bottom-bar {
 	height: 128px;
 	border-bottom: $half-spacing solid $brand-primary;
-	background: #414141 url("/images/logo.svg") center/auto 48px no-repeat padding-box padding-box;
+	background: $gray-810 url("/images/logo.svg") center/auto 48px no-repeat padding-box padding-box;
 }
 
 .pt-region-content {
@@ -142,7 +145,7 @@ th {
 .pt-region-top-bar {
 	border-top: $half-spacing solid $brand-primary;
 	padding: $double-spacing;
-	background-color: #414141;
+	background-color: $gray-810;
 	display: flex;
 	justify-content: center;
 	align-items: center;
