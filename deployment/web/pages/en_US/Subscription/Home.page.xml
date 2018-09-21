@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<m:page id='7b22940f-b2dd-43e1-9a0b-25011a7e1b33' xmlns='http://www.w3.org/1999/xhtml' title='Homepage'
+<m:page id='7b22940f-b2dd-43e1-9a0b-25011a7e1b33' xmlns='http://www.w3.org/1999/xhtml' title='Ski Weekend Subscription'
         class='layout-atlas layout-atlas-responsive-default page-dashboard page-dashboard-actions' xmlns:m='http://schemas.mendix.com/forms/1.0'>
     <m:layouts>
         <m:layout path='Atlas_UI_Resources/Pt_Default.layout.xml'></m:layout>

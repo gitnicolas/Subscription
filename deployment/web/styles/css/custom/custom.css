@@ -143,6 +143,13 @@ th {
 	content: "Ski Weekend Subscription"
 }
 
+.pt-card {
+	border-radius: 2px;
+	padding: 16px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25)
+}
+
 .pt-disclaimer-container {
 	position: absolute;
 	top: 0;

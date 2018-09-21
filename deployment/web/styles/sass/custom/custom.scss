@@ -159,6 +159,13 @@ th {
 
 // Pt UI Components
 
+.pt-card {
+	border-radius: $border-radius-default;
+	padding: $double-spacing;
+	background-color: white;
+	box-shadow: $card-shadow;
+}
+
 .pt-disclaimer-container {
 	position: absolute;
 	top: 0;
