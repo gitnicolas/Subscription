@@ -5,10 +5,10 @@
     </m:layouts>
     <m:arguments>
         <m:argument parameterName='417ac0c6-a3a5-4e4e-9e08-65371dabeaeb'>
-            <div data-mendix-id='9_0' class='mx-layoutgrid mx-layoutgrid-fluid container-fluid mx-name-layoutGrid1'>
+            <div data-mendix-id='12_0' class='mx-layoutgrid mx-layoutgrid-fluid container-fluid mx-name-layoutGrid1'>
                 <div class='row'>
                     <div class='col-md-12'>
-                        <div data-mendix-id='9_1' data-mendix-type='mxui.widget.DataView'
+                        <div data-mendix-id='12_1' data-mendix-type='mxui.widget.DataView'
                              data-mendix-props='"friendlyId":"Subscription.TransportationType_NewEdit.dataView1","entity":"Subscription.TransportationType","schema":"534e3e45-830f-4f6a-ac87-509b30a52327","datasource":{"friendlyId":"Subscription.TransportationType_NewEdit.dataView1","type":"direct","path":"Subscription.TransportationType"}'
                              class='mx-name-dataView1 form-horizontal' tabindex='0'></div>
                     </div>
@@ -17,40 +17,40 @@
         </m:argument>
     </m:arguments>
     <m:templates>
-        <m:template widget-id='9_1' name='content'>
-            <div data-mendix-id='9_2' class='form-group mx-name-textBox3'>
-                <div data-mendix-id='9_7' data-mendix-type='mxui.widget.ReactWidgetWrapper'
-                     data-mendix-props='"widgetTree":[{"widget":"com.mendix.widget.core.Label","widgetId":"9_7","props":{"name":"","class":"control-label col-sm-3","caption":{"$type":"DynamicTextProperty","scope":"9_1","template":{"elements":["Order"],"friendlyId":"Subscription.TransportationType_NewEdit."}}}}]'></div>
+        <m:template widget-id='12_1' name='content'>
+            <div data-mendix-id='12_2' class='form-group mx-name-textBox3'>
+                <div data-mendix-id='12_7' data-mendix-type='mxui.widget.ReactWidgetWrapper'
+                     data-mendix-props='"widgetTree":[{"widget":"com.mendix.widget.core.Label","widgetId":"12_7","props":{"name":"","class":"control-label col-sm-3","caption":{"$type":"DynamicTextProperty","scope":"12_1","template":{"elements":["Order"],"friendlyId":"Subscription.TransportationType_NewEdit."}}}}]'></div>
                 <div class='col-sm-9'>
-                    <div data-mendix-id='9_8' data-mendix-type='mxui.widget.NumberInput'
+                    <div data-mendix-id='12_8' data-mendix-type='mxui.widget.NumberInput'
                          data-mendix-props='"friendlyId":"Subscription.TransportationType_NewEdit.textBox3","insideFormGroup":true,"attributePath":"Subscription.TransportationType/Order","readOnlyStyle":"control","validation":null,"events":{"change":{"type":"doNothing","argMap":{},"config":{}},"focus":{"type":"doNothing","argMap":{},"config":{}},"blur":{"type":"doNothing","argMap":{},"config":{}}},"placeholder":""'
                          tabindex='0'></div>
                 </div>
             </div>
-            <div data-mendix-id='9_3' class='form-group mx-name-textBox1'>
-                <div data-mendix-id='9_9' data-mendix-type='mxui.widget.ReactWidgetWrapper'
-                     data-mendix-props='"widgetTree":[{"widget":"com.mendix.widget.core.Label","widgetId":"9_9","props":{"name":"","class":"control-label col-sm-3","caption":{"$type":"DynamicTextProperty","scope":"9_1","template":{"elements":["Code"],"friendlyId":"Subscription.TransportationType_NewEdit."}}}}]'></div>
+            <div data-mendix-id='12_3' class='form-group mx-name-textBox1'>
+                <div data-mendix-id='12_9' data-mendix-type='mxui.widget.ReactWidgetWrapper'
+                     data-mendix-props='"widgetTree":[{"widget":"com.mendix.widget.core.Label","widgetId":"12_9","props":{"name":"","class":"control-label col-sm-3","caption":{"$type":"DynamicTextProperty","scope":"12_1","template":{"elements":["Code"],"friendlyId":"Subscription.TransportationType_NewEdit."}}}}]'></div>
                 <div class='col-sm-9'>
-                    <div data-mendix-id='9_10' data-mendix-type='mxui.widget.TextInput'
+                    <div data-mendix-id='12_10' data-mendix-type='mxui.widget.TextInput'
                          data-mendix-props='"friendlyId":"Subscription.TransportationType_NewEdit.textBox1","insideFormGroup":true,"attributePath":"Subscription.TransportationType/Code","readOnlyStyle":"control","validation":null,"events":{"change":{"type":"doNothing","argMap":{},"config":{}},"focus":{"type":"doNothing","argMap":{},"config":{}},"blur":{"type":"doNothing","argMap":{},"config":{}}},"placeholder":"","maxLength":4'
                          tabindex='0'></div>
                 </div>
             </div>
-            <div data-mendix-id='9_4' class='form-group mx-name-textBox2'>
-                <div data-mendix-id='9_11' data-mendix-type='mxui.widget.ReactWidgetWrapper'
-                     data-mendix-props='"widgetTree":[{"widget":"com.mendix.widget.core.Label","widgetId":"9_11","props":{"name":"","class":"control-label col-sm-3","caption":{"$type":"DynamicTextProperty","scope":"9_1","template":{"elements":["Name"],"friendlyId":"Subscription.TransportationType_NewEdit."}}}}]'></div>
+            <div data-mendix-id='12_4' class='form-group mx-name-textBox2'>
+                <div data-mendix-id='12_11' data-mendix-type='mxui.widget.ReactWidgetWrapper'
+                     data-mendix-props='"widgetTree":[{"widget":"com.mendix.widget.core.Label","widgetId":"12_11","props":{"name":"","class":"control-label col-sm-3","caption":{"$type":"DynamicTextProperty","scope":"12_1","template":{"elements":["Name"],"friendlyId":"Subscription.TransportationType_NewEdit."}}}}]'></div>
                 <div class='col-sm-9'>
-                    <div data-mendix-id='9_12' data-mendix-type='mxui.widget.TextInput'
+                    <div data-mendix-id='12_12' data-mendix-type='mxui.widget.TextInput'
                          data-mendix-props='"friendlyId":"Subscription.TransportationType_NewEdit.textBox2","insideFormGroup":true,"attributePath":"Subscription.TransportationType/Name","readOnlyStyle":"control","validation":null,"events":{"change":{"type":"doNothing","argMap":{},"config":{}},"focus":{"type":"doNothing","argMap":{},"config":{}},"blur":{"type":"doNothing","argMap":{},"config":{}}},"placeholder":"","maxLength":128'
                          tabindex='0'></div>
                 </div>
             </div>
         </m:template>
-        <m:template widget-id='9_1' name='footer'>
-            <div data-mendix-id='9_5' data-mendix-type='mxui.widget.ReactWidgetWrapper'
-                 data-mendix-props='"widgetTree":[{"widget":"com.mendix.widget.core.ActionButton","widgetId":"9_5","props":{"name":"actionButton1","class":"mx-name-actionButton1","id":"9_5","style":{},"renderType":"button","buttonClass":"btn-primary","caption":{"$type":"DynamicTextProperty","scope":"9_1","template":{"elements":["Save"],"friendlyId":"Subscription.TransportationType_NewEdit.actionButton1"}},"tooltip":{"$type":"DynamicTextProperty","template":{"elements":[""]}},"icon":{"$type":"WebIconProperty","icon":{"type":"glyph","iconClass":"glyphicon-ok-sign"}},"action":{"$type":"ActionProperty","action":{"type":"saveChanges","argMap":{"object":"9_1"},"config":{"closePage":true}},"abortOnServerValidation":true},"disabledDuringAction":true}}]'></div>
-            <div data-mendix-id='9_6' data-mendix-type='mxui.widget.ReactWidgetWrapper'
-                 data-mendix-props='"widgetTree":[{"widget":"com.mendix.widget.core.ActionButton","widgetId":"9_6","props":{"name":"actionButton2","class":"mx-name-actionButton2","id":"9_6","style":{},"renderType":"button","buttonClass":"btn-default","caption":{"$type":"DynamicTextProperty","scope":"9_1","template":{"elements":["Cancel"],"friendlyId":"Subscription.TransportationType_NewEdit.actionButton2"}},"tooltip":{"$type":"DynamicTextProperty","template":{"elements":[""]}},"icon":null,"action":{"$type":"ActionProperty","action":{"type":"cancelChanges","argMap":{},"config":{"closePage":true}},"abortOnServerValidation":true},"disabledDuringAction":true}}]'></div>
+        <m:template widget-id='12_1' name='footer'>
+            <div data-mendix-id='12_5' data-mendix-type='mxui.widget.ReactWidgetWrapper'
+                 data-mendix-props='"widgetTree":[{"widget":"com.mendix.widget.core.ActionButton","widgetId":"12_5","props":{"name":"actionButton1","class":"mx-name-actionButton1","id":"12_5","style":{},"renderType":"button","buttonClass":"btn-primary","caption":{"$type":"DynamicTextProperty","scope":"12_1","template":{"elements":["Save"],"friendlyId":"Subscription.TransportationType_NewEdit.actionButton1"}},"tooltip":{"$type":"DynamicTextProperty","template":{"elements":[""]}},"icon":{"$type":"WebIconProperty","icon":{"type":"glyph","iconClass":"glyphicon-ok-sign"}},"action":{"$type":"ActionProperty","action":{"type":"saveChanges","argMap":{"object":"12_1"},"config":{"closePage":true}},"abortOnServerValidation":true},"disabledDuringAction":true}}]'></div>
+            <div data-mendix-id='12_6' data-mendix-type='mxui.widget.ReactWidgetWrapper'
+                 data-mendix-props='"widgetTree":[{"widget":"com.mendix.widget.core.ActionButton","widgetId":"12_6","props":{"name":"actionButton2","class":"mx-name-actionButton2","id":"12_6","style":{},"renderType":"button","buttonClass":"btn-default","caption":{"$type":"DynamicTextProperty","scope":"12_1","template":{"elements":["Cancel"],"friendlyId":"Subscription.TransportationType_NewEdit.actionButton2"}},"tooltip":{"$type":"DynamicTextProperty","template":{"elements":[""]}},"icon":null,"action":{"$type":"ActionProperty","action":{"type":"cancelChanges","argMap":{},"config":{"closePage":true}},"abortOnServerValidation":true},"disabledDuringAction":true}}]'></div>
         </m:template>
     </m:templates>
 </m:page>

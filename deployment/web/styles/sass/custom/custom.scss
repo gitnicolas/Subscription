@@ -177,6 +177,7 @@ th {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow: auto;
 	box-shadow: $hole-shadow;
 }
 
@@ -186,5 +187,15 @@ th {
 	border-radius: $border-radius-default;
 	padding: $double-spacing;
 	background-color: white;
-	box-shadow: $card-shadow;
+	box-shadow: $disclaimer-shadow;
+}
+
+.pt-flex {
+	display: flex;
+	padding: $spacing;
+}
+
+.pt-flex > * {
+	flex: 1 0 auto;
+	margin: $spacing;
 }
