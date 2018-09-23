@@ -2,6 +2,7 @@
 
 deploy:
      [copy] Copying 45 files to P:\Repository\Projects\Subscription-main\deployment
+     [copy] Copying 31 files to P:\Repository\Projects\Subscription-main\deployment\model\lib\userlib
 
 BUILD SUCCESSFUL
 Total time: 0 seconds
