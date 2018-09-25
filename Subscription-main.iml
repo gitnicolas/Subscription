@@ -7,5 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Subscription" level="project" />
+    <orderEntry type="library" name="Mendix" level="project" />
   </component>
 </module>

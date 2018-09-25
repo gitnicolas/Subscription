@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Mendix">
+    <CLASSES>
+      <root url="jar://C:/Program Files/Mendix/7.18.0.39395/runtime/bundles/biz.aQute.bnd.bndlib.jar!/" />
+      <root url="jar://C:/Program Files/Mendix/7.18.0.39395/runtime/bundles/com.mendix.json.jar!/" />
+      <root url="jar://C:/Program Files/Mendix/7.18.0.39395/runtime/bundles/com.mendix.logging-api.jar!/" />
+      <root url="jar://C:/Program Files/Mendix/7.18.0.39395/runtime/bundles/com.mendix.m2ee-api.jar!/" />
+      <root url="jar://C:/Program Files/Mendix/7.18.0.39395/runtime/bundles/com.mendix.public-api.jar!/" />
+      <root url="jar://C:/Program Files/Mendix/7.18.0.39395/runtime/bundles/javax.servlet-api.servlet.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

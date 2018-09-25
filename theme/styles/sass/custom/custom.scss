@@ -142,6 +142,11 @@ th {
 	box-shadow: $hole-shadow;
 }
 
+.pt-region-side-bar > * {
+	border-top: $half-spacing solid $brand-primary;
+	border-bottom: $half-spacing solid $brand-primary;
+}
+
 .pt-region-top-bar {
 	border-top: $half-spacing solid $brand-primary;
 	padding: $double-spacing;

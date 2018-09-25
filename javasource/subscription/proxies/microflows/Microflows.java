@@ -26,13 +26,25 @@ public class Microflows
 			throw new MendixRuntimeException(e);
 		}
 	}
-	public static void exportPersons(IContext context, subscription.proxies.Person _person)
+	public static void exportPersons(IContext context)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			Core.execute(context, "Subscription.ExportPersons", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
+	public static boolean fillRegistrationStatus(IContext context, subscription.proxies.Person _person)
 	{
 		try
 		{
 			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
 			params.put("Person", _person == null ? null : _person.getMendixObject());
-			Core.execute(context, "Subscription.ExportPersons", params);
+			return (java.lang.Boolean)Core.execute(context, "Subscription.FillRegistrationStatus", params);
 		}
 		catch (CoreException e)
 		{
