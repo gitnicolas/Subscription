@@ -7,8 +7,18 @@
     "DatabaseUserName": "",
     "DatabaseUseIntegratedSecurity": "False",
     "ApplicationRootUrl": "http://localhost:8080/",
-    "ScheduledEventExecution": "None"
+    "ScheduledEventExecution": "Specified",
+    "MyScheduledEvents": "EmailTemplate.Cleanup,EmailTemplate.SendQueuedEmails"
   },
-  "Constants": {},
+  "Constants": {
+    "Encryption.LogNode": "Encryption",
+    "Encryption.EncryptionPrefix": "{AES2}",
+    "Encryption.EncryptionKey": "8g9PkZUpci0We7i8",
+    "EmailTemplate.LogNode": "Email",
+    "EmailTemplate.EmailAddressSeparator": ",",
+    "EmailTemplate.EmailRetention": "30",
+    "EmailTemplate.EmailLogRetention": "30",
+    "EmailTemplate.SendingEnabled": "True"
+  },
   "AdminPassword": "Pictet1805!"
 }

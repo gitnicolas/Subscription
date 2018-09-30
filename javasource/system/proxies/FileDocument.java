@@ -72,11 +72,17 @@ public class FileDocument
 	 */
 	public static system.proxies.FileDocument initialize(com.mendix.systemwideinterfaces.core.IContext context, com.mendix.systemwideinterfaces.core.IMendixObject mendixObject)
 	{
+		if (com.mendix.core.Core.isSubClassOf("EmailTemplate.Attachment", mendixObject.getType()))
+			return emailtemplate.proxies.Attachment.initialize(context, mendixObject);
+
 		if (com.mendix.core.Core.isSubClassOf("XLSReport.CustomExcel", mendixObject.getType()))
 			return xlsreport.proxies.CustomExcel.initialize(context, mendixObject);
 
 		if (com.mendix.core.Core.isSubClassOf("System.Image", mendixObject.getType()))
 			return system.proxies.Image.initialize(context, mendixObject);
+
+		if (com.mendix.core.Core.isSubClassOf("Encryption.PGPCertificate", mendixObject.getType()))
+			return encryption.proxies.PGPCertificate.initialize(context, mendixObject);
 
 		return new system.proxies.FileDocument(context, mendixObject);
 	}
