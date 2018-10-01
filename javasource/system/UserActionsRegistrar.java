@@ -23,6 +23,12 @@ public class UserActionsRegistrar
     registrator.registerUserAction(encryption.actions.PGPDecryptDocument.class);
     registrator.registerUserAction(encryption.actions.PGPEncryptDocument.class);
     registrator.registerUserAction(encryption.actions.ValidatePrivateKeyRing.class);
+    registrator.registerUserAction(localeswitcher.actions.ApplyTimezoneToSession.class);
+    registrator.registerUserAction(localeswitcher.actions.CheckLanguage.class);
+    registrator.registerUserAction(localeswitcher.actions.GetSessionTZOffset.class);
+    registrator.registerUserAction(localeswitcher.actions.SignIn.class);
+    registrator.registerUserAction(localeswitcher.actions.StartLocaleSwitcher.class);
+    registrator.registerUserAction(localeswitcher.actions.UpdateUser.class);
     registrator.registerUserAction(mxmodelreflection.actions.ReplaceToken.class);
     registrator.registerUserAction(mxmodelreflection.actions.SyncObjects.class);
     registrator.registerUserAction(mxmodelreflection.actions.TestThePattern.class);
