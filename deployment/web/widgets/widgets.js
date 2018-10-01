@@ -1,1 +1,0 @@
-﻿define(["BootstrapRTE/widget/BootstrapRTE", "MobileFeatures/widget/MobileFeatures", "SprintrFeedbackWidget/SprintrFeedback"], {});
