@@ -10,6 +10,7 @@ import com.mendix.core.Core;
 import com.mendix.core.CoreException;
 import com.mendix.systemwideinterfaces.MendixRuntimeException;
 import com.mendix.systemwideinterfaces.core.IContext;
+import com.mendix.systemwideinterfaces.core.IMendixObject;
 
 public class Microflows
 {
@@ -45,6 +46,19 @@ public class Microflows
 			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
 			params.put("Person", _person == null ? null : _person.getMendixObject());
 			return (java.lang.Boolean)Core.execute(context, "Subscription.FillRegistrationStatus", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
+	public static system.proxies.User getCurrentUser(IContext context)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			IMendixObject result = (IMendixObject)Core.execute(context, "Subscription.GetCurrentUser", params);
+			return result == null ? null : system.proxies.User.initialize(context, result);
 		}
 		catch (CoreException e)
 		{
