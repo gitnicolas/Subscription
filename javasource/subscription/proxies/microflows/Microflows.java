@@ -65,6 +65,19 @@ public class Microflows
 			throw new MendixRuntimeException(e);
 		}
 	}
+	public static void saveLanguage(IContext context, system.proxies.User _user)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			params.put("User", _user == null ? null : _user.getMendixObject());
+			Core.execute(context, "Subscription.SaveLanguage", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
 	public static void savePerson(IContext context, subscription.proxies.Person _person)
 	{
 		try
