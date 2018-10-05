@@ -19,27 +19,16 @@
 		var RegionCode = i18n.phonenumbers.RegionCode;
 		var formatter = new i18n.phonenumbers.AsYouTypeFormatter(RegionCode.CH);
 		function format(event) {
-			event.preventDefault();
-			event.stopImmediatePropagation();
-			event.stopPropagation();
-			var key = event.key;
-			if ('0123456789+ ()-'.indexOf(key) !== -1) {
-				var target = event.target;
-				var newValue = formatter.inputDigit(key);
-				if (target.value === newValue.substr(0, newValue.length - 1)) {
-					target.value = newValue;
-				} else {
-					formatter.clear();
-					var oldValue = target.value;
-					var length = oldValue.length;
-					var char;
-					for (var i = 0; i < length; i++) {
-						char = oldValue.charAt(i);
-						if (char !== ' ') formatter.inputDigit(char);
-					}
-					target.value = formatter.inputDigit(key);
-				}
+			var target = event.target;
+			var value = target.value;
+			var length = value.length;
+			var char;
+			formatter.clear();
+			for (var i = 0; i < length; i++) {
+				char = value.charAt(i);
+				if (char !== ' ') formatter.inputDigit(char);
 			}
+			target.value = formatter.currentOutput_;
 		}
 		function validate(event) {
 			var target = event.target;
@@ -70,6 +59,6 @@ Specify a Phone Number:
 </body>
 <script>
 	document.getElementById('phoneNumber').addEventListener('blur', validate);
-	document.getElementById('phoneNumber').addEventListener('keypress', format);
+	document.getElementById('phoneNumber').addEventListener('input', format);
 </script>
 </html>
