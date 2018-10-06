@@ -49,5 +49,5 @@
 		document.getElementsByClassName('mx-name-phone')[0].getElementsByTagName('input')[0].addEventListener('change', validate);
 	}
 
-	require('libraries/libphonenumber/libphonenumber.small.js', apply);
+	require('libraries/libphonenumber/libphonenumber.js', apply);
 })();
