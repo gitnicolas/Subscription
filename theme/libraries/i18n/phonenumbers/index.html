@@ -4,9 +4,7 @@
 	<meta charset="utf-8">
 	<title>Phone Number Parser Prototype Usage</title>
 	<script src="../../closure/goog/base.js"></script>
-	<script>
-		goog.require('goog.proto2.Message');
-	</script>
+	<script src="../../closure/goog/proto2/message.js"></script>
 	<script src="phonemetadata.pb.js"></script>
 	<script src="phonenumber.pb.js"></script>
 	<script src="metadata.js"></script>
@@ -58,7 +56,7 @@ Specify a Phone Number:
 <input type="text" name="phoneNumber" id="phoneNumber" title="phoneNumber" size="32"/>
 </body>
 <script>
-	document.getElementById('phoneNumber').addEventListener('blur', validate);
 	document.getElementById('phoneNumber').addEventListener('input', format);
+	document.getElementById('phoneNumber').addEventListener('change', validate);
 </script>
 </html>
