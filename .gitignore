@@ -1,3 +1,4 @@
+/.mendix-cache/
 /deployment/
 !/deployment/data/
 Subscription.mpr.bak

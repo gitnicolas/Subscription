@@ -6,11 +6,6 @@
 		document.head.appendChild(script);
 	}
 
-	function requireAll(urls, callback) {
-		if (urls.length === 1) require(urls[0], callback);
-		else require(urls[0], requireAll(urls.slice(1), callback));
-	}
-
 	function apply() {
 		var RegionCode = i18n.phonenumbers.RegionCode;
 		var formatter = new i18n.phonenumbers.AsYouTypeFormatter(RegionCode.CH);
@@ -54,17 +49,5 @@
 		document.getElementsByClassName('mx-name-phone')[0].getElementsByTagName('input')[0].addEventListener('change', validate);
 	}
 
-	var scripts = [
-		'/libraries/closure/goog/base.js',
-		'/libraries/closure/goog/proto2/message.js',
-		'/libraries/i18n/phonenumbers/phonemetadata.pb.js',
-		'/libraries/i18n/phonenumbers/phonenumber.pb.js',
-		'/libraries/i18n/phonenumbers/metadata.js',
-		'/libraries/i18n/phonenumbers/regioncodefortesting.js',
-		'/libraries/i18n/phonenumbers/shortnumbermetadata.js',
-		'/libraries/i18n/phonenumbers/phonenumberutil.js',
-		'/libraries/i18n/phonenumbers/asyoutypeformatter.js',
-		'/libraries/i18n/phonenumbers/shortnumberinfo.js'
-	];
-	requireAll(scripts, apply);
+	require('libraries/libphonenumber/libphonenumber.min.js', apply);
 })();
