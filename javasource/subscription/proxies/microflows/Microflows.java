@@ -15,6 +15,30 @@ import com.mendix.systemwideinterfaces.core.IMendixObject;
 public class Microflows
 {
 	// These are the microflows for the Subscription module
+	public static void acceptDisclaimer(IContext context)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			Core.execute(context, "Subscription.AcceptDisclaimer", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
+	public static void checkDisclaimer(IContext context)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			Core.execute(context, "Subscription.CheckDisclaimer", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
 	public static void createPerson(IContext context)
 	{
 		try
@@ -133,6 +157,19 @@ public class Microflows
 			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
 			params.put("Person", _person == null ? null : _person.getMendixObject());
 			Core.execute(context, "Subscription.SavePerson", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
+	public static void savePersonFromSubscription(IContext context, subscription.proxies.Person _person)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			params.put("Person", _person == null ? null : _person.getMendixObject());
+			Core.execute(context, "Subscription.SavePersonFromSubscription", params);
 		}
 		catch (CoreException e)
 		{
