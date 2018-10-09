@@ -52,6 +52,30 @@ public class Microflows
 			throw new MendixRuntimeException(e);
 		}
 	}
+	public static java.lang.String getAboutContent(IContext context)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			return (java.lang.String)Core.execute(context, "Subscription.GetAboutContent", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
+	public static java.lang.String getCongratulationsContent(IContext context)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			return (java.lang.String)Core.execute(context, "Subscription.GetCongratulationsContent", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
 	public static system.proxies.User getCurrentUser(IContext context)
 	{
 		try
@@ -59,6 +83,18 @@ public class Microflows
 			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
 			IMendixObject result = (IMendixObject)Core.execute(context, "Subscription.GetCurrentUser", params);
 			return result == null ? null : system.proxies.User.initialize(context, result);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
+	public static java.lang.String getDisclaimerContent(IContext context)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			return (java.lang.String)Core.execute(context, "Subscription.GetDisclaimerContent", params);
 		}
 		catch (CoreException e)
 		{

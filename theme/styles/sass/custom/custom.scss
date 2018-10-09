@@ -105,6 +105,10 @@ th {
 	margin-left: -$spacing;
 }
 
+.mx-button + .mx-button {
+	margin-left: 8px;
+}
+
 .mx-dataview .mx-dataview-controls {
 	margin-top: $spacing;
 	border-top: none;

@@ -8,6 +8,6 @@ build:
       [bnd] # project (project.jar) 258 
 
 BUILD SUCCESSFUL
-Total time: 3 seconds
+Total time: 2 seconds
 
 
