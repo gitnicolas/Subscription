@@ -23,7 +23,6 @@ public class Person
 		LastName("LastName"),
 		FirstName("FirstName"),
 		EMail("EMail"),
-		ComputedEMail("ComputedEMail"),
 		Phone("Phone"),
 		Person_SkiLevel("Subscription.Person_SkiLevel"),
 		Person_ActivityType("Subscription.Person_ActivityType"),
@@ -230,42 +229,6 @@ public class Person
 	public final void setEMail(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String email)
 	{
 		getMendixObject().setValue(context, MemberNames.EMail.toString(), email);
-	}
-
-	/**
-	 * @return value of ComputedEMail
-	 */
-	public final java.lang.Boolean getComputedEMail()
-	{
-		return getComputedEMail(getContext());
-	}
-
-	/**
-	 * @param context
-	 * @return value of ComputedEMail
-	 */
-	public final java.lang.Boolean getComputedEMail(com.mendix.systemwideinterfaces.core.IContext context)
-	{
-		return (java.lang.Boolean) getMendixObject().getValue(context, MemberNames.ComputedEMail.toString());
-	}
-
-	/**
-	 * Set value of ComputedEMail
-	 * @param computedemail
-	 */
-	public final void setComputedEMail(java.lang.Boolean computedemail)
-	{
-		setComputedEMail(getContext(), computedemail);
-	}
-
-	/**
-	 * Set value of ComputedEMail
-	 * @param context
-	 * @param computedemail
-	 */
-	public final void setComputedEMail(com.mendix.systemwideinterfaces.core.IContext context, java.lang.Boolean computedemail)
-	{
-		getMendixObject().setValue(context, MemberNames.ComputedEMail.toString(), computedemail);
 	}
 
 	/**

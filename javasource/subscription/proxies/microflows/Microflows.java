@@ -51,6 +51,18 @@ public class Microflows
 			throw new MendixRuntimeException(e);
 		}
 	}
+	public static void exportEmployees(IContext context)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			Core.execute(context, "Subscription.ExportEmployees", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
 	public static void exportPersons(IContext context)
 	{
 		try
