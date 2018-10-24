@@ -53,6 +53,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: $font-family-condensed;
 }
 
+p {
+	margin-bottom: $spacing;
+}
+
 th {
 	font-weight: inherit;
 }
@@ -110,7 +114,7 @@ th {
 }
 
 .mx-dataview .mx-dataview-controls {
-	margin-top: $spacing;
+	margin-top: $double-spacing;
 	border-top: none;
 	padding: 0;
 }
@@ -131,6 +135,27 @@ th {
 .row {
 	margin-right: -$spacing;
 	margin-left: -$spacing;
+}
+
+// Add-On Widgets Overrides
+
+// AutoCompleteForMendix
+
+.select2-container--default .select2-selection--single {
+	height: inherit;
+	border-color: $gray-primary;
+	border-radius: $border-radius-default;
+	background-color: $gray-50;
+	box-shadow: inset 0 1px 2px 0 $gray-lighter;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+	border-color: $gray-primary;
+}
+
+.select2-dropdown {
+	border-color: $gray-primary;
+	border-radius: $border-radius-default;
 }
 
 // Pt UI Theme

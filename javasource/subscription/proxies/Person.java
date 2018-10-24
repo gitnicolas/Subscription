@@ -28,7 +28,9 @@ public class Person
 		Person_ActivityType("Subscription.Person_ActivityType"),
 		Person_FoodPreference("Subscription.Person_FoodPreference"),
 		Person_TransportationType("Subscription.Person_TransportationType"),
-		Person_RegistrationStatus("Subscription.Person_RegistrationStatus");
+		Person_RegistrationStatus("Subscription.Person_RegistrationStatus"),
+		Person_Employee("Subscription.Person_Employee"),
+		Roommate("Subscription.Roommate");
 
 		private java.lang.String metaName;
 
@@ -483,6 +485,92 @@ public class Person
 			getMendixObject().setValue(context, MemberNames.Person_RegistrationStatus.toString(), null);
 		else
 			getMendixObject().setValue(context, MemberNames.Person_RegistrationStatus.toString(), person_registrationstatus.getMendixObject().getId());
+	}
+
+	/**
+	 * @return value of Person_Employee
+	 */
+	public final subscription.proxies.Employee getPerson_Employee() throws com.mendix.core.CoreException
+	{
+		return getPerson_Employee(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of Person_Employee
+	 */
+	public final subscription.proxies.Employee getPerson_Employee(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
+	{
+		subscription.proxies.Employee result = null;
+		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.Person_Employee.toString());
+		if (identifier != null)
+			result = subscription.proxies.Employee.load(context, identifier);
+		return result;
+	}
+
+	/**
+	 * Set value of Person_Employee
+	 * @param person_employee
+	 */
+	public final void setPerson_Employee(subscription.proxies.Employee person_employee)
+	{
+		setPerson_Employee(getContext(), person_employee);
+	}
+
+	/**
+	 * Set value of Person_Employee
+	 * @param context
+	 * @param person_employee
+	 */
+	public final void setPerson_Employee(com.mendix.systemwideinterfaces.core.IContext context, subscription.proxies.Employee person_employee)
+	{
+		if (person_employee == null)
+			getMendixObject().setValue(context, MemberNames.Person_Employee.toString(), null);
+		else
+			getMendixObject().setValue(context, MemberNames.Person_Employee.toString(), person_employee.getMendixObject().getId());
+	}
+
+	/**
+	 * @return value of Roommate
+	 */
+	public final subscription.proxies.Employee getRoommate() throws com.mendix.core.CoreException
+	{
+		return getRoommate(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of Roommate
+	 */
+	public final subscription.proxies.Employee getRoommate(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
+	{
+		subscription.proxies.Employee result = null;
+		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.Roommate.toString());
+		if (identifier != null)
+			result = subscription.proxies.Employee.load(context, identifier);
+		return result;
+	}
+
+	/**
+	 * Set value of Roommate
+	 * @param roommate
+	 */
+	public final void setRoommate(subscription.proxies.Employee roommate)
+	{
+		setRoommate(getContext(), roommate);
+	}
+
+	/**
+	 * Set value of Roommate
+	 * @param context
+	 * @param roommate
+	 */
+	public final void setRoommate(com.mendix.systemwideinterfaces.core.IContext context, subscription.proxies.Employee roommate)
+	{
+		if (roommate == null)
+			getMendixObject().setValue(context, MemberNames.Roommate.toString(), null);
+		else
+			getMendixObject().setValue(context, MemberNames.Roommate.toString(), roommate.getMendixObject().getId());
 	}
 
 	/**

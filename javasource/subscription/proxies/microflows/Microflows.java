@@ -27,6 +27,31 @@ public class Microflows
 			throw new MendixRuntimeException(e);
 		}
 	}
+	public static void acceptTerms(IContext context)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			Core.execute(context, "Subscription.AcceptTerms", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
+	public static void applyEmployee(IContext context, subscription.proxies.Person _person)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			params.put("Person", _person == null ? null : _person.getMendixObject());
+			Core.execute(context, "Subscription.ApplyEmployee", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
 	public static void checkDisclaimer(IContext context)
 	{
 		try
@@ -39,12 +64,38 @@ public class Microflows
 			throw new MendixRuntimeException(e);
 		}
 	}
+	public static void checkTerms(IContext context, subscription.proxies.Person _person)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			params.put("Person", _person == null ? null : _person.getMendixObject());
+			Core.execute(context, "Subscription.CheckTerms", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
 	public static void createPerson(IContext context)
 	{
 		try
 		{
 			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
 			Core.execute(context, "Subscription.CreatePerson", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
+	public static void deletePerson(IContext context, subscription.proxies.Person _person)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			params.put("Person", _person == null ? null : _person.getMendixObject());
+			Core.execute(context, "Subscription.DeletePerson", params);
 		}
 		catch (CoreException e)
 		{
@@ -69,19 +120,6 @@ public class Microflows
 		{
 			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
 			Core.execute(context, "Subscription.ExportPersons", params);
-		}
-		catch (CoreException e)
-		{
-			throw new MendixRuntimeException(e);
-		}
-	}
-	public static boolean fillRegistrationStatus(IContext context, subscription.proxies.Person _person)
-	{
-		try
-		{
-			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
-			params.put("Person", _person == null ? null : _person.getMendixObject());
-			return (java.lang.Boolean)Core.execute(context, "Subscription.FillRegistrationStatus", params);
 		}
 		catch (CoreException e)
 		{
@@ -131,6 +169,18 @@ public class Microflows
 		{
 			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
 			return (java.lang.String)Core.execute(context, "Subscription.GetDisclaimerContent", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
+	public static java.lang.String getTermsContent(IContext context)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			return (java.lang.String)Core.execute(context, "Subscription.GetTermsContent", params);
 		}
 		catch (CoreException e)
 		{
@@ -195,6 +245,32 @@ public class Microflows
 			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
 			params.put("Person", _person == null ? null : _person.getMendixObject());
 			Core.execute(context, "Subscription.SendEMail", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
+	public static boolean setFullName(IContext context, subscription.proxies.Employee _employee)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			params.put("Employee", _employee == null ? null : _employee.getMendixObject());
+			return (java.lang.Boolean)Core.execute(context, "Subscription.SetFullName", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
+	public static boolean setRegistrationStatus(IContext context, subscription.proxies.Person _person)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			params.put("Person", _person == null ? null : _person.getMendixObject());
+			return (java.lang.Boolean)Core.execute(context, "Subscription.SetRegistrationStatus", params);
 		}
 		catch (CoreException e)
 		{

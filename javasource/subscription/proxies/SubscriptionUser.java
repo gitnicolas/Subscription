@@ -21,6 +21,7 @@ public class SubscriptionUser
 	public enum MemberNames
 	{
 		DisclaimerAccepted("DisclaimerAccepted"),
+		TermsAccepted("TermsAccepted"),
 		SubscriptionUser_User("Subscription.SubscriptionUser_User");
 
 		private java.lang.String metaName;
@@ -150,6 +151,42 @@ public class SubscriptionUser
 	public final void setDisclaimerAccepted(com.mendix.systemwideinterfaces.core.IContext context, java.lang.Boolean disclaimeraccepted)
 	{
 		getMendixObject().setValue(context, MemberNames.DisclaimerAccepted.toString(), disclaimeraccepted);
+	}
+
+	/**
+	 * @return value of TermsAccepted
+	 */
+	public final java.lang.Boolean getTermsAccepted()
+	{
+		return getTermsAccepted(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of TermsAccepted
+	 */
+	public final java.lang.Boolean getTermsAccepted(com.mendix.systemwideinterfaces.core.IContext context)
+	{
+		return (java.lang.Boolean) getMendixObject().getValue(context, MemberNames.TermsAccepted.toString());
+	}
+
+	/**
+	 * Set value of TermsAccepted
+	 * @param termsaccepted
+	 */
+	public final void setTermsAccepted(java.lang.Boolean termsaccepted)
+	{
+		setTermsAccepted(getContext(), termsaccepted);
+	}
+
+	/**
+	 * Set value of TermsAccepted
+	 * @param context
+	 * @param termsaccepted
+	 */
+	public final void setTermsAccepted(com.mendix.systemwideinterfaces.core.IContext context, java.lang.Boolean termsaccepted)
+	{
+		getMendixObject().setValue(context, MemberNames.TermsAccepted.toString(), termsaccepted);
 	}
 
 	/**

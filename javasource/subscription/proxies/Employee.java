@@ -20,10 +20,12 @@ public class Employee
 	 */
 	public enum MemberNames
 	{
+		FullName("FullName"),
 		LastName("LastName"),
 		FirstName("FirstName"),
 		EMail("EMail"),
-		Phone("Phone");
+		Phone("Phone"),
+		Search("Search");
 
 		private java.lang.String metaName;
 
@@ -118,6 +120,42 @@ public class Employee
 	{
 		com.mendix.core.Core.delete(context, getMendixObject());
 	}
+	/**
+	 * @return value of FullName
+	 */
+	public final java.lang.String getFullName()
+	{
+		return getFullName(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of FullName
+	 */
+	public final java.lang.String getFullName(com.mendix.systemwideinterfaces.core.IContext context)
+	{
+		return (java.lang.String) getMendixObject().getValue(context, MemberNames.FullName.toString());
+	}
+
+	/**
+	 * Set value of FullName
+	 * @param fullname
+	 */
+	public final void setFullName(java.lang.String fullname)
+	{
+		setFullName(getContext(), fullname);
+	}
+
+	/**
+	 * Set value of FullName
+	 * @param context
+	 * @param fullname
+	 */
+	public final void setFullName(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String fullname)
+	{
+		getMendixObject().setValue(context, MemberNames.FullName.toString(), fullname);
+	}
+
 	/**
 	 * @return value of LastName
 	 */
@@ -260,6 +298,42 @@ public class Employee
 	public final void setPhone(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String phone)
 	{
 		getMendixObject().setValue(context, MemberNames.Phone.toString(), phone);
+	}
+
+	/**
+	 * @return value of Search
+	 */
+	public final java.lang.String getSearch()
+	{
+		return getSearch(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of Search
+	 */
+	public final java.lang.String getSearch(com.mendix.systemwideinterfaces.core.IContext context)
+	{
+		return (java.lang.String) getMendixObject().getValue(context, MemberNames.Search.toString());
+	}
+
+	/**
+	 * Set value of Search
+	 * @param search
+	 */
+	public final void setSearch(java.lang.String search)
+	{
+		setSearch(getContext(), search);
+	}
+
+	/**
+	 * Set value of Search
+	 * @param context
+	 * @param search
+	 */
+	public final void setSearch(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String search)
+	{
+		getMendixObject().setValue(context, MemberNames.Search.toString(), search);
 	}
 
 	/**
