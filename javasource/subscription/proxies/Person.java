@@ -533,7 +533,7 @@ public class Person
 	/**
 	 * @return value of Roommate
 	 */
-	public final subscription.proxies.Employee getRoommate() throws com.mendix.core.CoreException
+	public final java.util.List<subscription.proxies.Employee> getRoommate() throws com.mendix.core.CoreException
 	{
 		return getRoommate(getContext());
 	}
@@ -542,12 +542,15 @@ public class Person
 	 * @param context
 	 * @return value of Roommate
 	 */
-	public final subscription.proxies.Employee getRoommate(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
+	@SuppressWarnings("unchecked")
+	public final java.util.List<subscription.proxies.Employee> getRoommate(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
 	{
-		subscription.proxies.Employee result = null;
-		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.Roommate.toString());
-		if (identifier != null)
-			result = subscription.proxies.Employee.load(context, identifier);
+		java.util.List<subscription.proxies.Employee> result = new java.util.ArrayList<subscription.proxies.Employee>();
+		Object valueObject = getMendixObject().getValue(context, MemberNames.Roommate.toString());
+		if (valueObject == null)
+			return result;
+		for (com.mendix.systemwideinterfaces.core.IMendixObject mendixObject : com.mendix.core.Core.retrieveIdList(context, (java.util.List<com.mendix.systemwideinterfaces.core.IMendixIdentifier>) valueObject))
+			result.add(subscription.proxies.Employee.initialize(context, mendixObject));
 		return result;
 	}
 
@@ -555,7 +558,7 @@ public class Person
 	 * Set value of Roommate
 	 * @param roommate
 	 */
-	public final void setRoommate(subscription.proxies.Employee roommate)
+	public final void setRoommate(java.util.List<subscription.proxies.Employee> roommate)
 	{
 		setRoommate(getContext(), roommate);
 	}
@@ -565,12 +568,12 @@ public class Person
 	 * @param context
 	 * @param roommate
 	 */
-	public final void setRoommate(com.mendix.systemwideinterfaces.core.IContext context, subscription.proxies.Employee roommate)
+	public final void setRoommate(com.mendix.systemwideinterfaces.core.IContext context, java.util.List<subscription.proxies.Employee> roommate)
 	{
-		if (roommate == null)
-			getMendixObject().setValue(context, MemberNames.Roommate.toString(), null);
-		else
-			getMendixObject().setValue(context, MemberNames.Roommate.toString(), roommate.getMendixObject().getId());
+		java.util.List<com.mendix.systemwideinterfaces.core.IMendixIdentifier> identifiers = new java.util.ArrayList<com.mendix.systemwideinterfaces.core.IMendixIdentifier>();
+		for (subscription.proxies.Employee proxyObject : roommate)
+			identifiers.add(proxyObject.getMendixObject().getId());
+		getMendixObject().setValue(context, MemberNames.Roommate.toString(), identifiers);
 	}
 
 	/**
