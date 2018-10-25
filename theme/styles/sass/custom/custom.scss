@@ -209,15 +209,19 @@ th {
 	padding: $double-spacing;
 	background: url("/images/snow.jpg") center/cover no-repeat padding-box padding-box;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	overflow: auto;
 	box-shadow: $hole-shadow;
 }
 
+.pt-disclaimer-container-start {
+	justify-content: inherit;
+}
+
 .pt-disclaimer-card {
-	width: 60%;
-	min-width: 288px;
+	width: 768px;
 	border-radius: $border-radius-default;
 	padding: $double-spacing;
 	background-color: white;
@@ -235,5 +239,5 @@ th {
 }
 
 .pt-window {
-	width: 1092px;
+	width: 796px;
 }
