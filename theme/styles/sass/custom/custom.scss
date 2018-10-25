@@ -153,6 +153,16 @@ th {
 	border-color: $gray-primary;
 }
 
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	top: 5px;
+	right: 8px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	padding: 8px 30px 8px 8px;
+	line-height: inherit;
+}
+
 .select2-dropdown {
 	border-color: $gray-primary;
 	border-radius: $border-radius-default;
