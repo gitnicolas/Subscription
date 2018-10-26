@@ -277,4 +277,17 @@ public class Microflows
 			throw new MendixRuntimeException(e);
 		}
 	}
+	public static boolean setRoommates(IContext context, subscription.proxies.Person _person)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			params.put("Person", _person == null ? null : _person.getMendixObject());
+			return (java.lang.Boolean)Core.execute(context, "Subscription.SetRoommates", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
 }

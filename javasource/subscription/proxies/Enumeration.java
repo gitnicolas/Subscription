@@ -75,14 +75,17 @@ public class Enumeration
 		if (com.mendix.core.Core.isSubClassOf("Subscription.FoodPreference", mendixObject.getType()))
 			return subscription.proxies.FoodPreference.initialize(context, mendixObject);
 
+		if (com.mendix.core.Core.isSubClassOf("Subscription.OutwardTransportation", mendixObject.getType()))
+			return subscription.proxies.OutwardTransportation.initialize(context, mendixObject);
+
 		if (com.mendix.core.Core.isSubClassOf("Subscription.RegistrationStatus", mendixObject.getType()))
 			return subscription.proxies.RegistrationStatus.initialize(context, mendixObject);
 
+		if (com.mendix.core.Core.isSubClassOf("Subscription.ReturnTransportation", mendixObject.getType()))
+			return subscription.proxies.ReturnTransportation.initialize(context, mendixObject);
+
 		if (com.mendix.core.Core.isSubClassOf("Subscription.SkiLevel", mendixObject.getType()))
 			return subscription.proxies.SkiLevel.initialize(context, mendixObject);
-
-		if (com.mendix.core.Core.isSubClassOf("Subscription.TransportationType", mendixObject.getType()))
-			return subscription.proxies.TransportationType.initialize(context, mendixObject);
 
 		return new subscription.proxies.Enumeration(context, mendixObject);
 	}
