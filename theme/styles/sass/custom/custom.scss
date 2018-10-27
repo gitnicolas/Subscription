@@ -61,6 +61,10 @@ th {
 	font-weight: inherit;
 }
 
+select.form-control::-ms-expand {
+	display: none;
+}
+
 .btn, .mx-button {
 	border: none;
 	padding: $spacing $double-spacing;
@@ -154,6 +158,7 @@ th {
 }
 
 .select2-container--default .select2-selection--single .select2-selection__arrow {
+	visibility: hidden;
 	top: 5px;
 	right: 8px;
 }
@@ -161,6 +166,11 @@ th {
 .select2-container--default .select2-selection--single .select2-selection__rendered {
 	padding: 8px 30px 8px 8px;
 	line-height: inherit;
+	background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='15px' height='8px'><polyline id='Line' fill='none' stroke='%23555555' points='0.5 0.5 6 6 11.5 0.5'></polyline></svg>") right 8px center no-repeat padding-box padding-box;
+}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__rendered {
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='15px' height='8px'><polyline id='Line' fill='none' stroke='%23555555' points='0.5 6 6 0.5 11.5 6'></polyline></svg>");
 }
 
 .select2-dropdown {
