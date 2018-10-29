@@ -61,6 +61,10 @@ th {
 	font-weight: inherit;
 }
 
+select.form-control {
+	background: url("/images/chevron-down.svg") right 8px center/15px 8px no-repeat padding-box padding-box;
+}
+
 select.form-control::-ms-expand {
 	display: none;
 }
@@ -166,11 +170,11 @@ select.form-control::-ms-expand {
 .select2-container--default .select2-selection--single .select2-selection__rendered {
 	padding: 8px 30px 8px 8px;
 	line-height: inherit;
-	background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='15px' height='8px'><polyline id='Line' fill='none' stroke='%23555555' points='0.5 0.5 6 6 11.5 0.5'></polyline></svg>") right 8px center no-repeat padding-box padding-box;
+	background: url("/images/chevron-down.svg") right 8px center/15px 8px no-repeat padding-box padding-box;
 }
 
 .select2-container--default.select2-container--open .select2-selection--single .select2-selection__rendered {
-	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='15px' height='8px'><polyline id='Line' fill='none' stroke='%23555555' points='0.5 6 6 0.5 11.5 6'></polyline></svg>");
+	background-image: url("/images/chevron-up.svg");
 }
 
 .select2-dropdown {
@@ -229,7 +233,6 @@ select.form-control::-ms-expand {
 	padding: $double-spacing;
 	background: url("/images/snow.jpg") center/cover no-repeat padding-box padding-box;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	overflow: auto;
@@ -237,11 +240,11 @@ select.form-control::-ms-expand {
 }
 
 .pt-disclaimer-container-start {
-	justify-content: inherit;
+	align-items: flex-start;
 }
 
 .pt-disclaimer-card {
-	width: 768px;
+	flex: 0 0 768px;
 	border-radius: $border-radius-default;
 	padding: $double-spacing;
 	background-color: white;
